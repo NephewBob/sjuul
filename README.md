@@ -1,3 +1,6 @@
+# Data description
+* https://www.gemconsortium.org/data/sets
+
 ## NES
 * National expert survey, questionnaire sent out to relevant experts in each country.
 * questions are encoded as NES_A01_MEAN10
@@ -10,3 +13,8 @@
   * SUM_10 stands for a -4 to 4 scale, -4 completely false, 4 completely true, other SUM_* have no scale, ignore these.
 
 ## APS
+* Adult population survey, questionnaire to general populace.
+
+# Ideas
+* Most of the APS data point are percentages. So I am using the logit transformation.\
+  Perhaps Beta regression is a good idea. https://towardsdatascience.com/a-guide-to-the-regression-of-rates-and-proportions-bcfe1c35344f

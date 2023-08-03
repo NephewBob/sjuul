@@ -1,0 +1,219 @@
+﻿Name;Type;Width;Decimals;Label;Values;Missing;Columns;Align;Measure;Role
+country;Numeric;4;0;Country Numeric Code;{1, United States}...;-1;7;Right;Nominal;Input
+country_name;String;22;0;Country Name;None;None;18;Left;Nominal;Input
+ctryalp;String;6;0;Country Internet Alphanumeric (2-letter);{AE, United Arab Emirates}...;None;14;Right;Nominal;Input
+REGION;Numeric;8;2;;{1,00, Africa}...;None;10;Right;Nominal;Input
+WEFInc;Numeric;8;2;COUNTRY INCOME GROUP GCR REPORT - 4 CAT;{1,00, Lower}...;None;10;Right;Scale;Input
+WEFIncREV;Numeric;8;2;COUNTRY INCOME GROUP GCR REPORT - 3 CAT;{1,00, Low}...;None;11;Right;Nominal;Input
+Bstart19;Numeric;8;2;% 18-64 pop: YES: Currently involved in business start-up;None;None;10;Right;Scale;Input
+Bjobst19;Numeric;8;2;% 18-64 pop: YES: Currently involved in business start-up, as part of normal job;None;None;10;Right;Scale;Input
+Ownmge19;Numeric;8;2;% 18-64 pop: YES: Currently owner-manager of running business;None;None;10;Right;Scale;Input
+OMJOBST19;Numeric;8;2;% 18-64 pop: YES: Currently owner-manager of a business for employer;None;None;11;Right;Scale;Input
+Busang19;Numeric;8;2;% 18-64 pop: YES: Provided funds for new business in past 3 years excl stocks & funds;None;None;10;Right;Scale;Input
+Futsup19;Numeric;8;2;% 18-64 pop: YES: Expects to start a new business in the next 3 years;None;None;10;Right;Scale;Input
+Disent19;Numeric;8;2;% 18-64 pop: YES: Exited a business in past year, business did not continue;None;None;10;Right;Scale;Input
+Exitct19;Numeric;8;2;% 18-64 pop: YES: Exited a business in past year, business continued;None;None;10;Right;Scale;Input
+Knoent19;Numeric;8;2;% 18-64 pop: YES: Knows someone who started a business in the past 2 years;None;None;10;Right;Scale;Input
+Opport19;Numeric;8;2;% 18-64 pop: YES: Good conditions to start business next 6 months in area I live;None;None;10;Right;Scale;Input
+Suskil19;Numeric;8;2;% 18-64 pop: YES: Has required knowledge/skills to start business;None;None;10;Right;Scale;Input
+Frfail19;Numeric;8;2;% 18-64 pop: YES: Fear of failure would prevent starting a business;None;None;10;Right;Scale;Input
+Knoen19m;Numeric;8;2;% 18-64 male: YES: Knows someone who started business in past 2 years;None;None;10;Right;Scale;Input
+Knoen19f;Numeric;8;2;% 18-64 female: YES: Knows someone who started business in past 2 years;None;None;10;Right;Scale;Input
+Oppor19m;Numeric;8;2;% 18-64 male: YES: Good conditions to start business next 6 months in area I live;None;None;10;Right;Scale;Input
+Oppor19f;Numeric;8;2;% 18-64 female: YES: Good conditions to start business next 6 months in area I live;None;None;10;Right;Scale;Input
+Suskl19m;Numeric;8;2;% 18-64 male: YES: Has required knowledge/skills to start business;None;None;10;Right;Scale;Input
+Suskl19f;Numeric;8;2;% 18-64 female: YES: Has required knowledge/skills to start business;None;None;10;Right;Scale;Input
+Ffail19m;Numeric;8;2;% 18-64 male: YES: Fear of failure would prevent starting a business;None;None;10;Right;Scale;Input
+Ffail19f;Numeric;8;2;% 18-64 female: YES: Fear of failure would prevent starting a business;None;None;10;Right;Scale;Input
+Equali19;Numeric;8;2;% 18-64 pop: YES: People prefer equal standard of living for all (OPTIONAL);None;None;10;Right;Scale;Input
+NBgood19;Numeric;8;2;% 18-64 pop: YES: People consider starting business as good career choice (OPTIONAL);None;None;10;Right;Scale;Input
+NBstat19;Numeric;8;2;% 18-64 pop: YES: People attach high status to successful entrepreneurs (OPTIONAL);None;None;10;Right;Scale;Input
+NBmedi19;Numeric;8;2;% 18-64 pop: YES: In my country there is lots of media attention for entrepreneurship (OPTIONAL);None;None;10;Right;Scale;Input
+Sub19;Numeric;8;2;% 18-64 pop: Currently attempts to start business (own or part of normal job);None;None;10;Right;Scale;Input
+Subo19;Numeric;8;2;% 18-64 pop: Currently starts business and will be (part) owner;None;None;10;Right;Scale;Input
+Suboa19;Numeric;8;2;% 18-64 pop: Starts business, active past year and will be (part) owner;None;None;10;Right;Scale;Input
+Suboan19;Numeric;8;2;% 18-64 pop: START-UP/NASCENT (SU): active past year, (part) owner, no wages yet;None;None;10;Right;Scale;Input
+Babybu19;Numeric;8;2;% 18-64 pop: BABY BUS OWNER (BB): owns-manages business with income<3.5 years;None;None;10;Right;Scale;Input
+Estbbu19;Numeric;8;2;% 18-64 pop: ESTABL BUS OWNER (EB): owns-manages business with income>3.5 years;None;None;10;Right;Scale;Input
+Anybus19;Numeric;8;2;% 18-64 pop: Entrepr active: either nascent (SU), baby (BB) or established (EB);None;None;10;Right;Scale;Input
+BO_19ina;Numeric;8;2;% 18-64 pop: Business owner (BB or EB) incl agriculture;None;None;10;Right;Scale;Input
+BO_19exa;Numeric;8;2;% 18-64 pop: Business owner (BB or EB) excl agriculture;None;None;10;Right;Scale;Input
+TEA19;Numeric;8;2;% 18-64 pop: Setting up firm or owner of young firm (SU or BB);None;None;10;Right;Scale;Input
+TEA19mal;Numeric;8;2;% 18-64 male: Setting up firm or owner of young firm (SU or BB);None;None;10;Right;Scale;Input
+TEA19fem;Numeric;8;2;% 18-64 female: Setting up firm or owner of young firm (SU or BB);None;None;10;Right;Scale;Input
+EB_19mal;Numeric;8;2;% 18-64 male: Owner-manager of established business;None;None;10;Right;Scale;Input
+EB_19fem;Numeric;8;2;% 18-64 female: Owner-manager of established business;None;None;10;Right;Scale;Input
+Sample19;Numeric;4;0;COUNT number of respondents 18-64 in sample;None;None;10;Right;Scale;Input
+SU_ct19;Numeric;4;0;COUNT setting up a business (sample);None;None;10;Right;Scale;Input
+BB_ct19;Numeric;4;0;COUNT owning-managing baby business (sample);None;None;10;Right;Scale;Input
+EB_ct19;Numeric;4;0;COUNT owning-managing established business (sample);None;None;10;Right;Scale;Input
+TEAct19;Numeric;4;0;COUNT owning-managing baby business (sample);None;None;10;Right;Scale;Input
+BA_ct19;Numeric;4;0;COUNT informal investors (sample);None;None;10;Right;Scale;Input
+DISCct19;Numeric;4;0;COUNT respondents who discontinued business (sample);None;None;10;Right;Scale;Input
+frfailop;Numeric;8;2;Fear of failure (in 18-64 sample perceiving good opportunities to start a business);None;None;10;Right;Scale;Input
+futsupno;Numeric;8;2;Entrepreneurial intentions (in 18-64 sample that is not involved in entrepreneurial activity);None;None;10;Right;Scale;Input
+SU_19tmz;Numeric;8;2;SU average number of expected owners in the firm;None;None;10;Right;Scale;Input
+BB_19tmz;Numeric;8;2;BB average number of current owners in the firm;None;None;10;Right;Scale;Input
+EB_19tmz;Numeric;8;2;EB average number of current owners in the firm;None;None;10;Right;Scale;Input
+TEA19tmz;Numeric;8;2;TEA average number of owners (expected/current) in the firm;None;None;10;Right;Scale;Input
+Tea19s1p;Numeric;8;2;% within TEA : Extractive sector;None;None;10;Right;Scale;Input
+Tea19s2p;Numeric;8;2;% within TEA : Transforming sector;None;None;10;Right;Scale;Input
+Tea19s3p;Numeric;8;2;% within TEA : Business oriented services;None;None;10;Right;Scale;Input
+Tea19s4p;Numeric;8;2;% within TEA : Consumer oriented services;None;None;10;Right;Scale;Input
+EB_19s1p;Numeric;8;2;% within EB : Extractive sector;None;None;10;Right;Scale;Input
+EB_19s2p;Numeric;8;2;% within EB : Transforming sector;None;None;10;Right;Scale;Input
+EB_19s3p;Numeric;8;2;% within EB : Business oriented services;None;None;10;Right;Scale;Input
+EB_19s4p;Numeric;8;2;% within EB : Consumer oriented services;None;None;10;Right;Scale;Input
+TEA19HIX;Numeric;8;2;% 18-64 pop: TEA exports: more than 50% revenue outside country;None;None;10;Right;Scale;Input
+EB_19HIX;Numeric;8;2;% 18-64 pop: EB exports: more than 50% revenue outside country;None;None;10;Right;Scale;Input
+SU_19e1p;Numeric;8;2;% within SU: No revenue from outside country;None;None;10;Right;Scale;Input
+SU_19e2p;Numeric;8;2;% within SU: Export: 1-25% of revenue from outside country;None;None;10;Right;Scale;Input
+SU_19e3p;Numeric;8;2;% within SU: Export: 25-75% of revenue from outside country;None;None;10;Right;Scale;Input
+SU_19e4p;Numeric;8;2;% within SU: Export: 75-100% of revenue from outside country;None;None;10;Right;Scale;Input
+Tea19e1p;Numeric;8;2;% within TEA: No revenue from outside country;None;None;10;Right;Scale;Input
+Tea19e2p;Numeric;8;2;% within TEA: Export: 1-25% of revenue from outside country;None;None;10;Right;Scale;Input
+Tea19e3p;Numeric;8;2;% within TEA: Export: 25-75% of revenue from outside country;None;None;10;Right;Scale;Input
+Tea19e4p;Numeric;8;2;% within TEA: Export: 75-100% of revenue from outside country;None;None;10;Right;Scale;Input
+EB_19e1p;Numeric;8;2;% within EB: No revenue from outside country;None;None;10;Right;Scale;Input
+EB_19e2p;Numeric;8;2;% within EB: Export: 1-25% of revenue from outside country;None;None;10;Right;Scale;Input
+EB_19e3p;Numeric;8;2;% within EB: Export: 25-75% of revenue from outside country;None;None;10;Right;Scale;Input
+EB_19e4p;Numeric;8;2;% within EB: Export: 75-100% of revenue from outside country;None;None;10;Right;Scale;Input
+AN19ye1p;Numeric;8;2;% within ANY: No revenue from outside country;None;None;10;Right;Scale;Input
+AN19ye2p;Numeric;8;2;% within ANY: Export: 1-25% of revenue from outside country;None;None;10;Right;Scale;Input
+AN19ye3p;Numeric;8;2;% within ANY: Export: 25-75% of revenue from outside country;None;None;10;Right;Scale;Input
+AN19ye4p;Numeric;8;2;% within ANY: Export: 75-100% of revenue from outside country;None;None;10;Right;Scale;Input
+TEA19EMP;Numeric;8;2;% 18-64 pop: TEA any jobs now or in 5 years;None;None;10;Right;Scale;Input
+TEA19HJG;Numeric;8;2;% 18-64 pop: TEA expects more than 19 jobs in 5 years;None;None;10;Right;Scale;Input
+TEA19job;Numeric;8;2;% within TEA: High job expectation (10+ jobs and over 50% in 5 years);None;None;10;Right;Scale;Input
+EB_19job;Numeric;8;2;% within EB: High job expectation (10+ jobs and over 50% in 5 years);None;None;10;Right;Scale;Input
+TEA19tec;Numeric;8;2;% within TEA: Active in technology sectors (high or medium);None;None;10;Right;Scale;Input
+EB_19tec;Numeric;8;2;% within EB: Active in technology sectors (high or medium);None;None;10;Right;Scale;Input
+Tea19ac1;Numeric;8;2;% 18-64 pop age category 18-24: % involved in TEA;None;None;10;Right;Scale;Input
+Tea19ac2;Numeric;8;2;% 18-64 pop age category 25-34: % involved in TEA;None;None;10;Right;Scale;Input
+Tea19ac3;Numeric;8;2;% 18-64 pop age category 35-44: % involved in TEA;None;None;10;Right;Scale;Input
+Tea19ac4;Numeric;8;2;% 18-64 pop age category 45-54: % involved in TEA;None;None;10;Right;Scale;Input
+Tea19ac5;Numeric;8;2;% 18-64 pop age category 55-64: % involved in TEA;None;None;10;Right;Scale;Input
+EB_19ac1;Numeric;8;2;% 18-64 pop age category 18-24: % involved in EB;None;None;10;Right;Scale;Input
+EB_19ac2;Numeric;8;2;% 18-64 pop age category 25-34: % involved in EB;None;None;10;Right;Scale;Input
+EB_19ac3;Numeric;8;2;% 18-64 pop age category 35-44: % involved in EB;None;None;10;Right;Scale;Input
+EB_19ac4;Numeric;8;2;% 18-64 pop age category 45-54: % involved in EB;None;None;10;Right;Scale;Input
+EB_19ac5;Numeric;8;2;% 18-64 pop age category 55-64: % involved in EB;None;None;10;Right;Scale;Input
+Tea19ap1;Numeric;8;2;% within TEA: Age category 18-24;None;None;10;Right;Scale;Input
+Tea19ap2;Numeric;8;2;% within TEA: Age category 25-34;None;None;10;Right;Scale;Input
+Tea19ap3;Numeric;8;2;% within TEA: Age category 35-44;None;None;10;Right;Scale;Input
+Tea19ap4;Numeric;8;2;% within TEA: Age category 45-54;None;None;10;Right;Scale;Input
+Tea19ap5;Numeric;8;2;% within TEA: Age category 55-64;None;None;10;Right;Scale;Input
+EB_19ap1;Numeric;8;2;% within EB: Age category 18-24;None;None;10;Right;Scale;Input
+EB_19ap2;Numeric;8;2;% within EB: Age category 25-34;None;None;10;Right;Scale;Input
+EB_19ap3;Numeric;8;2;% within EB: Age category 35-44;None;None;10;Right;Scale;Input
+EB_19ap4;Numeric;8;2;% within EB: Age category 45-54;None;None;10;Right;Scale;Input
+EB_19ap5;Numeric;8;2;% within EB: Age category 55-64;None;None;10;Right;Scale;Input
+Tea19WS1;Numeric;8;2;% 18-64 pop working: % involved in TEA;None;None;10;Right;Scale;Input
+Tea19WS2;Numeric;8;2;% 18-64 pop not working: % involved in TEA;None;None;10;Right;Scale;Input
+Tea19WS3;Numeric;8;2;% 18-64 pop students / retired: % involved in TEA;None;None;10;Right;Scale;Input
+TEA19ed1;Numeric;8;2;% 18-64 pop some secondary degree or lower: % involved in TEA;None;None;10;Right;Scale;Input
+TEA19ed2;Numeric;8;2;% 18-64 pop secondary degree: % involved in TEA;None;None;10;Right;Scale;Input
+TEA19ed3;Numeric;8;2;% 18-64 pop post-secundary degree: % involved in TEA;None;None;10;Right;Scale;Input
+TEA19ed4;Numeric;8;2;% 18-64 pop graduate experience: % involved in TEA;None;None;10;Right;Scale;Input
+EB_19ed1;Numeric;8;2;% 18-64 pop some secondary degree or lower: % involved in EB;None;None;10;Right;Scale;Input
+EB_19ed2;Numeric;8;2;% 18-64 pop secondary degree: % involved in EB;None;None;10;Right;Scale;Input
+EB_19ed3;Numeric;8;2;% 18-64 pop post-secundary degree: % involved in EB;None;None;10;Right;Scale;Input
+EB_19ed4;Numeric;8;2;% 18-64 pop graduate experience: % involved in EB;None;None;10;Right;Scale;Input
+TEAEDHI;Numeric;8;2;% 18-64 TEA: at least post secondary education;None;None;10;Right;Scale;Input
+TEA19hi1;Numeric;8;2;% 18-64 pop lowest household 33 ptile: % involved in TEA;None;None;10;Right;Scale;Input
+TEA19hi2;Numeric;8;2;% 18-64 pop middle household 33 ptile: % involved in TEA;None;None;10;Right;Scale;Input
+TEA19hi3;Numeric;8;2;% 18-64 pop highest household 33 ptile: % involved in TEA;None;None;10;Right;Scale;Input
+EB_19hi1;Numeric;8;2;% 18-64 pop lowest household 33 ptile: % involved in EB;None;None;10;Right;Scale;Input
+EB_19hi2;Numeric;8;2;% 18-64 pop middle household 33 ptile: % involved in EB;None;None;10;Right;Scale;Input
+EB_19hi3;Numeric;8;2;% 18-64 pop highest household 33 ptile: % involved in EB;None;None;10;Right;Scale;Input
+EX19_RS1;Numeric;8;2;% within EXIT: Exit reason is opportunity to sell;None;None;10;Right;Scale;Input
+EX19_RS2;Numeric;8;2;% within EXIT: Exit reason is business not profitable;None;None;10;Right;Scale;Input
+EX19_RS3;Numeric;8;2;% within EXIT: Exit reason is problems getting finance;None;None;10;Right;Scale;Input
+EX19_RS4;Numeric;8;2;% within EXIT: Exit reason is another job or business opportunity;None;None;10;Right;Scale;Input
+EX19_RS5;Numeric;8;2;% within EXIT: Exit reason is exit was planned in advance;None;None;10;Right;Scale;Input
+EX19_RS6;Numeric;8;2;% within EXIT: Exit reason is retirement;None;None;10;Right;Scale;Input
+EX19_RS7;Numeric;8;2;% within EXIT: Exit reason is family or personal reasons;None;None;10;Right;Scale;Input
+EX19_RS8;Numeric;8;2;% within EXIT: Exit reason is an incident;None;None;10;Right;Scale;Input
+EX19_RS11;Numeric;8;2;% within EXIT: Exit reason is government/tax policy/bureaucracy;None;None;11;Right;Scale;Input
+TEAjobex;Numeric;8;2;% within TEA: expects more than 5 employees in next five years;None;None;10;Right;Scale;Input
+TEAexpst;Numeric;8;2;% within TEA: strong international orientation (more than 25% of revenue from outside country);None;None;10;Right;Scale;Input
+TEAexpwk;Numeric;8;2;% within TEA: weak international orientation (more than 1% of revenue from outside country);None;None;10;Right;Scale;Input
+BAFUNDUS;Numeric;8;2;Informal funds in the last 3 years value - US$;None;None;10;Right;Scale;Input
+COUNTBAF;Numeric;8;2;COUNT total number of respondents with value for BAFUNDUS;None;None;10;Right;Scale;Input
+COUNTBUS;Numeric;8;2;COUNT total number of informal investors who provided value of investment;None;None;10;Right;Scale;Input
+BUSANGVL;Numeric;8;2;Informal investor in the last 3 years with provided value;None;None;10;Right;Scale;Input
+BUSANGVLWT;Numeric;8;2;Informal investor in the last 3 years with provided value - weighted;None;None;12;Right;Scale;Input
+IPACTLD_ALL;Numeric;8;2;% 18-64 pop: involved in intrapreneurship - leading role - active in past 3 years (OPTIONAL);None;None;13;Right;Scale;Input
+IPACTLD_EMP;Numeric;8;2;% 18-64 employed: involved in intrapreneurship - leading role - active in past 3 years (OPTIONAL);None;None;13;Right;Scale;Input
+IPACTLDNOW_ALL;Numeric;8;2;% 18-64 pop: involved in intrapreneurship - leading role - active now (OPTIONAL);None;None;16;Right;Scale;Input
+IPACTLDNOW_EMP;Numeric;8;2;% 18-64 employed: involved in intrapreneurship - leading role - active now (OPTIONAL);None;None;16;Right;Scale;Input
+TEAIMPACT1;Numeric;8;2;TEA: TEA at least national scope for market and at least national scope for new product or new process;None;None;12;Right;Scale;Input
+TEAIMPACT2;Numeric;8;2;TEA: TEA at least international scope for market and at least international scope for new product or new process;None;None;12;Right;Scale;Input
+TEA19MOT1yes;Numeric;8;2;Early-stage entrepreneur motive: To make a difference in the world;None;None;14;Right;Scale;Input
+TEA19MOT2yes;Numeric;8;2;Early-stage entrepreneur motive: To build greath wealth or a very high income;None;None;14;Right;Scale;Input
+TEA19MOT3yes;Numeric;8;2;Early-stage entrepreneur motive: To continue a family tradition;None;None;14;Right;Scale;Input
+TEA19MOT4yes;Numeric;8;2;Early-stage entrepreneur motive: To earn a living because jobs are scarce;None;None;14;Right;Scale;Input
+SU_19MOT1yes;Numeric;8;2;Nascent entrepreneur motive: To make a difference in the world;None;None;14;Right;Scale;Input
+SU_19MOT2yes;Numeric;8;2;Nascent entrepreneur motive: To build greath wealth or a very high income;None;None;14;Right;Scale;Input
+SU_19MOT3yes;Numeric;8;2;Nascent entrepreneur motive: To continue a family tradition;None;None;14;Right;Scale;Input
+SU_19MOT4yes;Numeric;8;2;Nascent entrepreneur motive: To earn a living because jobs are scarce;None;None;14;Right;Scale;Input
+BB_19MOT1yes;Numeric;8;2;New business owner-manager motive: To make a difference in the world;None;None;14;Right;Scale;Input
+BB_19MOT2yes;Numeric;8;2;New business owner-manager motive: To build greath wealth or a very high income;None;None;14;Right;Scale;Input
+BB_19MOT3yes;Numeric;8;2;New business owner-manager motive: To continue a family tradition;None;None;14;Right;Scale;Input
+BB_19MOT4yes;Numeric;8;2;New business owner-manager motive: To earn a living because jobs are scarce;None;None;14;Right;Scale;Input
+EB_19MOT1yes;Numeric;8;2;Established business owner-manager motive: To make a difference in the world;None;None;14;Right;Scale;Input
+EB_19MOT2yes;Numeric;8;2;Established business owner-manager motive: To build greath wealth or a very high income;None;None;14;Right;Scale;Input
+EB_19MOT3yes;Numeric;8;2;Established business owner-manager motive: To continue a family tradition;None;None;14;Right;Scale;Input
+EB_19MOT4yes;Numeric;8;2;Established business owner-manager motive: To earn a living because jobs are scarce;None;None;14;Right;Scale;Input
+TEA19MMOT1;Numeric;8;2;Involved in TEA, make a difference motive, male;None;None;12;Right;Scale;Input
+TEA19MMOT2;Numeric;8;2;Involved in TEA, make money motive, male;None;None;12;Right;Scale;Input
+TEA19MMOT3;Numeric;8;2;Involved in TEA, family tradition motive, male;None;None;12;Right;Scale;Input
+TEA19MMOT4;Numeric;8;2;Involved in TEA, earn living motive, male;None;None;12;Right;Scale;Input
+TEA19FMOT1;Numeric;8;2;Involved in TEA, make a difference motive, female;None;None;12;Right;Scale;Input
+TEA19FMOT2;Numeric;8;2;Involved in TEA, make money motive, female;None;None;12;Right;Scale;Input
+TEA19FMOT3;Numeric;8;2;Involved in TEA, family tradition motive, female;None;None;12;Right;Scale;Input
+TEA19FMOT4;Numeric;8;2;Involved in TEA, earn living motive, female;None;None;12;Right;Scale;Input
+SU_CSTLOC;Numeric;8;2;SU: Will you have any customers in the area where you live?;None;None;11;Right;Scale;Input
+SU_CSTNAT;Numeric;8;2;SU:Will you have any customers elsewhere in your country?;None;None;11;Right;Scale;Input
+SU_CSTEXP;Numeric;8;2;SU: Will you have any customers outside your country?;None;None;11;Right;Scale;Input
+BB_CSTLOC;Numeric;8;2;BB: Do you have any customers in the area where you live?;None;None;11;Right;Scale;Input
+BB_CSTNAT;Numeric;8;2;BB: Do you have any customers elsewhere in your country?;None;None;11;Right;Scale;Input
+BB_CSTEXP;Numeric;8;2;BB: Do you have any customers outside your country?;None;None;11;Right;Scale;Input
+EB_CSTLOC;Numeric;8;2;EB: Do you have any customers in the area where you live?;None;None;11;Right;Scale;Input
+EB_CSTNAT;Numeric;8;2;EB: Do you have any customers elsewhere in your country?;None;None;11;Right;Scale;Input
+EB_CSTEXP;Numeric;8;2;EB: Do you have any customers outside your country?;None;None;11;Right;Scale;Input
+TEACSTLOC;Numeric;8;2;TEA: Do you have any customers in the area where you live?;None;None;11;Right;Scale;Input
+TEACSTNAT;Numeric;8;2;TEA: Do you have any customers elsewhere in your country?;None;None;11;Right;Scale;Input
+TEACSTEXP;Numeric;8;2;TEA: Do you have any customers outside your country?;None;None;11;Right;Scale;Input
+OPPIS_1;Numeric;8;2;You rarely see business opportunities, even if you are very knowledgeable in the area, agree/disagree;None;None;10;Right;Scale;Input
+OPPIS_2;Numeric;8;2;You rarely see business opportunities, even if you are very knowledgeable in the area, agree/other;None;None;10;Right;Scale;Input
+OPPIS_3;Numeric;8;2;You rarely see business opportunities, even if you are very knowledgeable in the area, agree/other inc DK;None;None;10;Right;Scale;Input
+PROAC_1;Numeric;8;2;Even when you spot a profitable opportunity, you rarely act on it, agree/disagree;None;None;10;Right;Scale;Input
+PROAC_2;Numeric;8;2;Even when you spot a profitable opportunity, you rarely act on it, agree/other;None;None;10;Right;Scale;Input
+PROAC_3;Numeric;8;2;Even when you spot a profitable opportunity, you rarely act on it, agree/other inc DK;None;None;10;Right;Scale;Input
+CREATI_1;Numeric;8;2;Other people think you are highly innovative, agree/disagree;None;None;10;Right;Scale;Input
+CREATI_2;Numeric;8;2;Other people think you are highly innovative, agree/other;None;None;10;Right;Scale;Input
+CREATI_3;Numeric;8;2;Other people think you are highly innovative, agree/other inc DK;None;None;10;Right;Scale;Input
+VISIO_1;Numeric;8;2;Every decision you make is part of your long-term career plan, agree/disagree;None;None;10;Right;Scale;Input
+VISIO_2;Numeric;8;2;Every decision you make is part of your long-term career plan, agree/other;None;None;10;Right;Scale;Input
+VISIO_3;Numeric;8;2;Every decision you make is part of your long-term career plan, agree/other inc DK;None;None;10;Right;Scale;Input
+SOCEN_1;Numeric;8;2;In your country, you will often see businesses that primarily aim to solve social problems, agree/disagree;None;None;10;Right;Scale;Input
+SOCEN_2;Numeric;8;2;In your country, you will often see businesses that primarily aim to solve social problems, agree/other;None;None;10;Right;Scale;Input
+SOCEN_3;Numeric;8;2;In your country, you will often see businesses that primarily aim to solve social problems, agree/other inc DK;None;None;10;Right;Scale;Input
+EASYST19;Numeric;8;2;In your country, it is easy to start a business, agree/disagree;None;None;10;Right;Scale;Input
+IPIMPACT1;Numeric;8;2;Active and leading as intrapreneur in past three years: at least national scope for market and at least national scope f;None;None;11;Right;Scale;Input
+IPIMPACT2;Numeric;8;2;Active and leading as intrapreneur in past three years: at least international scope for market and at least internation;None;None;11;Right;Scale;Input
+IPNOWIMPACT1;Numeric;8;2;Active and leading as intrapreneur now: at least national scope for market and at least national scope for new product o;None;None;14;Right;Scale;Input
+IPNOWIMPACT2;Numeric;8;2;Active and leading as intrapreneur now: at least international scope for market and at least international scope for new;None;None;14;Right;Scale;Input
+IP_19KIX;Numeric;8;2;Active intrapreneur in last three years: signif export intensity (>10% of turnover);None;None;10;Right;Scale;Input
+IPNOW_19KIX;Numeric;8;2;Active intrapreneur now: signif export intensity (>10% of turnover);None;None;13;Right;Scale;Input
+IP_19HJG;Numeric;8;2;Active intrepreneur in past three years: expects more than 19 jobs in 5 years;None;None;10;Right;Scale;Input
+IPNOW_19HJG;Numeric;8;2;Active intrepreneur now: expects more than 19 jobs in 5 years;None;None;13;Right;Scale;Input
+TEA19IND;Numeric;8;2;TEA: Early-stage entrepreneur with independent business;None;None;10;Right;Scale;Input
+TEA19SPON;Numeric;8;2;TEA: Early-stage entrepreneur with sponsored business (part-owned with employer);None;None;11;Right;Scale;Input
+SU_SPON;Numeric;8;2;SU: Nascent entrepreneur with sponsored business (part-owned with employer);None;None;10;Right;Scale;Input
+SU_IND;Numeric;8;2;SU: Nascent entrepreneur with independent business;None;None;10;Right;Scale;Input
+BB_SPON;Numeric;8;2;BB: New business owner-manager with sponsored business (part-owned with employer;None;None;10;Right;Scale;Input
+BB_IND;Numeric;8;2;BB: New business owner-manager with independent business;None;None;10;Right;Scale;Input
+EB_SPON;Numeric;8;2;EB: New business owner-manager with sponsored business (part-owned with employer;None;None;10;Right;Scale;Input
+EB_IND;Numeric;8;2;EB: Established business owner-manager with independent business;None;None;10;Right;Scale;Input

@@ -16,5 +16,7 @@
 * Adult population survey, questionnaire to general populace.
 
 # Ideas
+* We regress Total Entrepeneurial Activity (TEA) against Perceived Skills.
 * Most of the APS data point are percentages. So I am using the logit transformation.\
   Perhaps Beta regression is a good idea. https://towardsdatascience.com/a-guide-to-the-regression-of-rates-and-proportions-bcfe1c35344f
+* Perform regression over time.

@@ -2,7 +2,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import statsmodels.api as sm
 
-from utils.load_csv import df_from_csv
+from utils.csv.load_csv import df_from_csv
+from utils.plot.common import PlotNames
+from utils.plot.scatter import scatter
 
 aps = df_from_csv(name="aps_2019", separator=";")
 aps_variables = df_from_csv(name="aps_2019_variables", separator=";")
@@ -25,18 +27,25 @@ def expit(x: float) -> float:
 def logit(x: float) -> float:
     return np.log(x) - np.log(1.0 - x)
 
+
 data_logit = data.apply(logit)
-
-
 corr = data_logit.corr()
 
 X = data_logit[[perceived_skill_identifier]].to_numpy()
 X = sm.add_constant(X)
-y = data_logit[[tea_identifier]].to_numpy()
+y = data_logit[[tea_identifier]].to_numpy()[:, 0]
 
 results = sm.OLS(y, X).fit()
 
-plt.scatter(y, X[:, 1])
+skills = X[:, 1]
+
+plt.scatter(y, skills)
+plt.title("fit")
+
+
+errors = y - X @ results.params
+scatter(x=skills, y=errors, names=PlotNames(title="errors"))
+
 plt.show()
 
 print(corr)

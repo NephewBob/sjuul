@@ -45,11 +45,14 @@ prediction = X @ results.params
 plt.scatter(skills, y)
 plt.plot(skills, prediction, "r")
 plt.title("fit")
+plt.xlabel("skills")
+plt.ylabel("tea")
 
 errors = y - prediction
-scatter(x=skills, y=errors, names=PlotNames(title="errors~skills"))
-scatter(x=y, y=errors, names=PlotNames(title="errors~tea"))
-histogram(x=errors, bins=8, names=PlotNames(title="errors dist"))
+scatter(x=skills, y=errors, names=PlotNames(title="errors~skills", x_name="skills", y_name="errors"))
+scatter(x=y, y=errors, names=PlotNames(title="errors~tea", x_name="tea", y_name="errors"))
+scatter(x=prediction, y=errors, names=PlotNames(title="errors~prediction", x_name="prediction", y_name="errors"))
+histogram(x=errors, bins=8, names=PlotNames(title="errors distribution"))
 
 plt.show()
 

@@ -1,0 +1,32 @@
+             TEA19  Suskil19  Frfail19
+TEA19     1.000000  0.556668   0.02958
+Suskil19  0.556668  1.000000   0.29004
+Frfail19  0.029580  0.290040   1.00000
+
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.310
+Model:                            OLS   Adj. R-squared:                  0.296
+Method:                 Least Squares   F-statistic:                     21.55
+Date:                Thu, 03 Aug 2023   Prob (F-statistic):           2.69e-05
+Time:                        16:06:41   Log-Likelihood:                -36.214
+No. Observations:                  50   AIC:                             76.43
+Df Residuals:                      48   BIC:                             80.25
+Df Model:                           1
+Covariance Type:            nonrobust
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -2.2388      0.083    -26.994      0.000      -2.406      -2.072
+x1             0.5359      0.115      4.643      0.000       0.304       0.768
+==============================================================================
+Omnibus:                        2.015   Durbin-Watson:                   1.296
+Prob(Omnibus):                  0.365   Jarque-Bera (JB):                1.288
+Skew:                          -0.373   Prob(JB):                        0.525
+Kurtosis:                       3.248   Cond. No.                         1.90
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Process finished with exit code 0

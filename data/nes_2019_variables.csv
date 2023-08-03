@@ -1,0 +1,968 @@
+﻿NAME;Type;Width;Decimals;Label;Values;Missing;Columns;Align;Measure;Role
+ID;Numeric;8;2;Original order;None;None;8;Right;Scale;Input
+COUNTRY_1;Numeric;8;2;Phone code;{1,00, USA}...;None;19;Right;Scale;Input
+WORLDREGION;Numeric;8;2;WORLD REGION;{,00, GEM total}...;None;11;Right;Scale;Input
+EU;Numeric;8;2;European Union;{,00, No}...;None;5;Right;Scale;Input
+OECD;Numeric;8;2;OECD;{,00, No}...;None;5;Right;Scale;Input
+BRICS;Numeric;8;2;BRICS;{,00, No}...;None;5;Right;Scale;Input
+COU_OR_REG;Numeric;8;2;Country (1) or Region (2);{1,00, Country}...;None;11;Right;Scale;Input
+CLASSIFICATION;String;1;0;GEM COUNTRIES GCR's CLASSIFICATION VARIABLES 2012;None;None;6;Left;Nominal;Input
+WEF_INCOME_4G;Numeric;1;0;COUNTRY INCOME GROUP GCR REPORT - 4 CAT;{1, Lower}...;None;12;Right;Ordinal;Input
+WEF_INCOME_3G;Numeric;8;2;COUNTRY INCOME GROUP GCR REPORT - 3 CAT;{1,00, Low}...;None;14;Right;Nominal;Input
+SAMPLE_N;Numeric;8;0;SAMPLE = NUMBER OF EXPERTS' INTERVIEWS;None;None;8;Right;Scale;Input
+MEANS_10;Numeric;8;2;MEANS OF SINGLE ITEMS IN 10 POINTS;None;None;8;Right;Nominal;Input
+NES_INQ_MEAN10;Numeric;8;2;How do you perceive the current overall state of your country’s (name of the country, region, city…) context for entrepreneurs or set of framework conditions that are facing entrepreneurs to develop their activities:;{,00, Extremelly bad conditions}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A01_MEAN10;Numeric;8;2;In my country, there is sufficient equity funding available for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A02_MEAN10;Numeric;8;2;In my country, there is sufficient debt funding available for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A03_MEAN10;Numeric;8;2;In my country, there are sufficient government subsidies available for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A04_MEAN10;Numeric;8;2;In my country, there is sufficient funding available from informal investors (family, friends and colleagues) who are private individuals (other than founders) for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A05_MEAN10;Numeric;8;2;In my country, there is sufficient funding available from professional Business Angels for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A06_MEAN10;Numeric;8;2;In my country, there is sufficient funding available from venture capitalists for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A07_MEAN10;Numeric;8;2;In my country, there is sufficient funding available through initial public offerings (IPOs) for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A08_MEAN10;Numeric;8;2;In my country, there is sufficient funding available through private lenders' funding (crowdfunding) available for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B01_MEAN10;Numeric;8;2;In my country, Government policies (e g , public procurement) consistently favor new firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B02_MEAN10;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the national government level;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B03_MEAN10;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the local government level;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B04_MEAN10;Numeric;8;2;In my country, new firms can get most of the required permits and licenses in about a week;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B05_MEAN10;Numeric;8;2;In my country, the amount of taxes is NOT a burden for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B06_MEAN10;Numeric;8;2;In my country, taxes and other government regulations are applied to new and growing firms in a predictable and consistent way;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B07_MEAN10;Numeric;8;2;In my country, coping with government bureaucracy, regulations, and licensing requirements it is not unduly difficult for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C01_MEAN10;Numeric;8;2;In my country, a wide range of government assistance for new and growing firms can be obtained through contact with a single agency;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C02_MEAN10;Numeric;8;2;In my country, science parks and business incubators provide effective support for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C03_MEAN10;Numeric;8;2;In my country, there are an adequate number of government programs for new and growing businesses;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C04_MEAN10;Numeric;8;2;In my country, the people working for government agencies are competent and effective in supporting new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C05_MEAN10;Numeric;8;2;In my country, almost anyone who needs help from a government program for a new or growing business can find what they need;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C06_MEAN10;Numeric;8;2;In my country, Government programs aimed at supporting new and growing firms are effective;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D01_MEAN10;Numeric;8;2;In my country, teaching in primary and secondary education encourages creativity, self-sufficiency, and personal initiative;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D02_MEAN10;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate instruction in market economic principles;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D03_MEAN10;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate attention to entrepreneurship and new firm creation;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D04_MEAN10;Numeric;8;2;In my country, Colleges and universities provide good and adequate preparation for starting up and growing new firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D05_MEAN10;Numeric;8;2;In my country, the level of business and management education provide good and adequate preparation for starting up and growing new firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D06_MEAN10;Numeric;8;2;In my country, the vocational, professional, and continuing education systems provide good and adequate preparation for starting up and growing new firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E01_MEAN10;Numeric;8;2;In my country, new technology, science, and other knowledge are efficiently transferred from universities and public research centers to new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E02_MEAN10;Numeric;8;2;In my country, new and growing firms have just as much access to new research and technology as large, established firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E03_MEAN10;Numeric;8;2;In my country, new and growing firms can afford the latest technology;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E04_MEAN10;Numeric;8;2;In my country, there are adequate government subsidies for new and growing firms to acquire new technology;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E05_MEAN10;Numeric;8;2;In my country, the science and technology base efficiently supports the creation of world-class new technology-based ventures in at least one area;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E06_MEAN10;Numeric;8;2;In my country, there is good support available for engineers and scientists to have their ideas commercialized through new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F01_MEAN10;Numeric;8;2;In my country, there are enough subcontractors, suppliers, and consultants to support new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F02_MEAN10;Numeric;8;2;In my country, new and growing firms can afford the cost of using subcontractors, suppliers, and consultants;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F03_MEAN10;Numeric;8;2;In my country, it is easy for new and growing firms to get good subcontractors, suppliers, and consultants;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F04_MEAN10;Numeric;8;2;In my country, it is easy for new and growing firms to get good, professional legal and accounting services;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F05_MEAN10;Numeric;8;2;In my country, it is easy for new and growing firms to get good banking services (checking accounts, foreign exchange transactions, letters of credit, and the like);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G01_MEAN10;Numeric;8;2;In my country, the markets for consumer goods and services change dramatically from year to year;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G02_MEAN10;Numeric;8;2;In my country, the markets for business-to-business goods and services change dramatically from year to year;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G03_MEAN10;Numeric;8;2;In my country, new and growing firms can easily enter new markets;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G04_MEAN10;Numeric;8;2;In my country, the new and growing firms can afford the cost of market entry;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G05_MEAN10;Numeric;8;2;In my country, new and growing firms can enter markets without being unfairly blocked by established firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G06_MEAN10;Numeric;8;2;In my country, the anti-trust legislation is effective and well enforced;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H01_MEAN10;Numeric;8;2;In my country, the physical infrastructure (roads, utilities, communications, waste disposal) provides good support for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H02_MEAN10;Numeric;8;2;In my country, it is not too expensive for a new or growing firm to get good access to communications (phone, Internet, etc );{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H03_MEAN10;Numeric;8;2;In my country, a new or growing firm can get good access to communications (telephone, internet, etc ) in about a week;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H04_MEAN10;Numeric;8;2;In my country, new and growing firms can afford the cost of basic utilities (gas, water, electricity, sewer);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H05_MEAN10;Numeric;8;2;In my country, new or growing firms can get good access to utilities (gas, water, electricity, sewer) in about a month;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I01_MEAN10;Numeric;8;2;In my country, the national culture is highly supportive of individual success achieved through own personal efforts;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I02_MEAN10;Numeric;8;2;In my country, the national culture emphasizes self-sufficiency, autonomy, and personal initiative;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I03_MEAN10;Numeric;8;2;In my country, the national culture encourages entrepreneurial risk-taking;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I04_MEAN10;Numeric;8;2;In my country, the national culture encourages creativity and innovativeness;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I05_MEAN10;Numeric;8;2;In my country, the national culture emphasizes the responsibility that the individual (rather than the collective) has in managing his or her own life;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+STDDEV_10;String;1;0;STANDARD DEVIATIONS FOR EACH VARIABLE OF THE CLOSED PART OF THE NES QUESTIONNAIRE;None;None;8;Left;Nominal;Input
+COUNTRY_2;Numeric;8;2;Country (Phone code);{1,00, USA}...;None;8;Right;Scale;Input
+NES_INQ_SD10;Numeric;8;2;How do you perceive the current overall state of your country’s (name of the country, region, city…) context for entrepreneurs or set of framework conditions that are facing entrepreneurs to develop their activities:;{,00, Extremelly bad conditions}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A01_SD10;Numeric;8;2;In my country, there is sufficient equity funding available for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A02_SD10;Numeric;8;2;In my country, there is sufficient debt funding available for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A03_SD10;Numeric;8;2;In my country, there are sufficient government subsidies available for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A04_SD10;Numeric;8;2;In my country, there is sufficient funding available from informal investors (family, friends and colleagues) who are private individuals (other than founders) for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A05_SD10;Numeric;8;2;In my country, there is sufficient funding available from professional Business Angels for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A06_SD10;Numeric;8;2;In my country, there is sufficient funding available from venture capitalists for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A07_SD10;Numeric;8;2;In my country, there is sufficient funding available through initial public offerings (IPOs) for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A08_SD10;Numeric;8;2;In my country, there is sufficient funding available through private lenders' funding (crowdfunding) available for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B01_SD10;Numeric;8;2;In my country, Government policies (e g , public procurement) consistently favor new firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B02_SD10;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the national government level;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B03_SD10;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the local government level;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B04_SD10;Numeric;8;2;In my country, new firms can get most of the required permits and licenses in about a week;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B05_SD10;Numeric;8;2;In my country, the amount of taxes is NOT a burden for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B06_SD10;Numeric;8;2;In my country, taxes and other government regulations are applied to new and growing firms in a predictable and consistent way;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B07_SD10;Numeric;8;2;In my country, coping with government bureaucracy, regulations, and licensing requirements it is not unduly difficult for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C01_SD10;Numeric;8;2;In my country, a wide range of government assistance for new and growing firms can be obtained through contact with a single agency;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C02_SD10;Numeric;8;2;In my country, science parks and business incubators provide effective support for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C03_SD10;Numeric;8;2;In my country, there are an adequate number of government programs for new and growing businesses;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C04_SD10;Numeric;8;2;In my country, the people working for government agencies are competent and effective in supporting new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C05_SD10;Numeric;8;2;In my country, almost anyone who needs help from a government program for a new or growing business can find what they need;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C06_SD10;Numeric;8;2;In my country, Government programs aimed at supporting new and growing firms are effective;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D01_SD10;Numeric;8;2;In my country, teaching in primary and secondary education encourages creativity, self-sufficiency, and personal initiative;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D02_SD10;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate instruction in market economic principles;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D03_SD10;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate attention to entrepreneurship and new firm creation;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D04_SD10;Numeric;8;2;In my country, Colleges and universities provide good and adequate preparation for starting up and growing new firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D05_SD10;Numeric;8;2;In my country, the level of business and management education provide good and adequate preparation for starting up and growing new firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D06_SD10;Numeric;8;2;In my country, the vocational, professional, and continuing education systems provide good and adequate preparation for starting up and growing new firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E01_SD10;Numeric;8;2;In my country, new technology, science, and other knowledge are efficiently transferred from universities and public research centers to new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E02_SD10;Numeric;8;2;In my country, new and growing firms have just as much access to new research and technology as large, established firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E03_SD10;Numeric;8;2;In my country, new and growing firms can afford the latest technology;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E04_SD10;Numeric;8;2;In my country, there are adequate government subsidies for new and growing firms to acquire new technology;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E05_SD10;Numeric;8;2;In my country, the science and technology base efficiently supports the creation of world-class new technology-based ventures in at least one area;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E06_SD10;Numeric;8;2;In my country, there is good support available for engineers and scientists to have their ideas commercialized through new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F01_SD10;Numeric;8;2;In my country, there are enough subcontractors, suppliers, and consultants to support new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F02_SD10;Numeric;8;2;In my country, new and growing firms can afford the cost of using subcontractors, suppliers, and consultants;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F03_SD10;Numeric;8;2;In my country, it is easy for new and growing firms to get good subcontractors, suppliers, and consultants;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F04_SD10;Numeric;8;2;In my country, it is easy for new and growing firms to get good, professional legal and accounting services;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F05_SD10;Numeric;8;2;In my country, it is easy for new and growing firms to get good banking services (checking accounts, foreign exchange transactions, letters of credit, and the like);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G01_SD10;Numeric;8;2;In my country, the markets for consumer goods and services change dramatically from year to year;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G02_SD10;Numeric;8;2;In my country, the markets for business-to-business goods and services change dramatically from year to year;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G03_SD10;Numeric;8;2;In my country, new and growing firms can easily enter new markets;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G04_SD10;Numeric;8;2;In my country, the new and growing firms can afford the cost of market entry;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G05_SD10;Numeric;8;2;In my country, new and growing firms can enter markets without being unfairly blocked by established firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G06_SD10;Numeric;8;2;In my country, the anti-trust legislation is effective and well enforced;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H01_SD10;Numeric;8;2;In my country, the physical infrastructure (roads, utilities, communications, waste disposal) provides good support for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H02_SD10;Numeric;8;2;In my country, it is not too expensive for a new or growing firm to get good access to communications (phone, Internet, etc );{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H03_SD10;Numeric;8;2;In my country, a new or growing firm can get good access to communications (telephone, internet, etc ) in about a week;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H04_SD10;Numeric;8;2;In my country, new and growing firms can afford the cost of basic utilities (gas, water, electricity, sewer);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H05_SD10;Numeric;8;2;In my country, new or growing firms can get good access to utilities (gas, water, electricity, sewer) in about a month;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I01_SD10;Numeric;8;2;In my country, the national culture is highly supportive of individual success achieved through own personal efforts;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I02_SD10;Numeric;8;2;In my country, the national culture emphasizes self-sufficiency, autonomy, and personal initiative;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I03_SD10;Numeric;8;2;In my country, the national culture encourages entrepreneurial risk-taking;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I04_SD10;Numeric;8;2;In my country, the national culture encourages creativity and innovativeness;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I05_SD10;Numeric;8;2;In my country, the national culture emphasizes the responsibility that the individual (rather than the collective) has in managing his or her own life;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+MEDIANS_10;String;1;0;MEDIANS FOR EACH VARIABLE OF THE CLOSED PART OF THE NES QUESTIONNAIRE;None;None;8;Left;Nominal;Input
+COUNTRY_3;Numeric;8;2;Country (Phone code);{1,00, USA}...;None;8;Right;Scale;Input
+NES_INQ_MED10;Numeric;8;2;How do you perceive the current overall state of your country’s (name of the country, region, city…) context for entrepreneurs or set of framework conditions that are facing entrepreneurs to develop their activities:;{,00, Extremelly bad conditions}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A01_MED10;Numeric;8;2;In my country, there is sufficient equity funding available for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A02_MED10;Numeric;8;2;In my country, there is sufficient debt funding available for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A03_MED10;Numeric;8;2;In my country, there are sufficient government subsidies available for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A04_MED10;Numeric;8;2;In my country, there is sufficient funding available from informal investors (family, friends and colleagues) who are private individuals (other than founders) for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A05_MED10;Numeric;8;2;In my country, there is sufficient funding available from professional Business Angels for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A06_MED10;Numeric;8;2;In my country, there is sufficient funding available from venture capitalists for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A07_MED10;Numeric;8;2;In my country, there is sufficient funding available through initial public offerings (IPOs) for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A08_MED10;Numeric;8;2;In my country, there is sufficient funding available through private lenders' funding (crowdfunding) available for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B01_MED10;Numeric;8;2;In my country, Government policies (e g , public procurement) consistently favor new firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B02_MED10;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the national government level;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B03_MED10;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the local government level;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B04_MED10;Numeric;8;2;In my country, new firms can get most of the required permits and licenses in about a week;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B05_MED10;Numeric;8;2;In my country, the amount of taxes is NOT a burden for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B06_MED10;Numeric;8;2;In my country, taxes and other government regulations are applied to new and growing firms in a predictable and consistent way;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B07_MED10;Numeric;8;2;In my country, coping with government bureaucracy, regulations, and licensing requirements it is not unduly difficult for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C01_MED10;Numeric;8;2;In my country, a wide range of government assistance for new and growing firms can be obtained through contact with a single agency;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C02_MED10;Numeric;8;2;In my country, science parks and business incubators provide effective support for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C03_MED10;Numeric;8;2;In my country, there are an adequate number of government programs for new and growing businesses;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C04_MED10;Numeric;8;2;In my country, the people working for government agencies are competent and effective in supporting new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C05_MED10;Numeric;8;2;In my country, almost anyone who needs help from a government program for a new or growing business can find what they need;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C06_MED10;Numeric;8;2;In my country, Government programs aimed at supporting new and growing firms are effective;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D01_MED10;Numeric;8;2;In my country, teaching in primary and secondary education encourages creativity, self-sufficiency, and personal initiative;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D02_MED10;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate instruction in market economic principles;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D03_MED10;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate attention to entrepreneurship and new firm creation;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D04_MED10;Numeric;8;2;In my country, Colleges and universities provide good and adequate preparation for starting up and growing new firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D05_MED10;Numeric;8;2;In my country, the level of business and management education provide good and adequate preparation for starting up and growing new firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D06_MED10;Numeric;8;2;In my country, the vocational, professional, and continuing education systems provide good and adequate preparation for starting up and growing new firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E01_MED10;Numeric;8;2;In my country, new technology, science, and other knowledge are efficiently transferred from universities and public research centers to new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E02_MED10;Numeric;8;2;In my country, new and growing firms have just as much access to new research and technology as large, established firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E03_MED10;Numeric;8;2;In my country, new and growing firms can afford the latest technology;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E04_MED10;Numeric;8;2;In my country, there are adequate government subsidies for new and growing firms to acquire new technology;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E05_MED10;Numeric;8;2;In my country, the science and technology base efficiently supports the creation of world-class new technology-based ventures in at least one area;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E06_MED10;Numeric;8;2;In my country, there is good support available for engineers and scientists to have their ideas commercialized through new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F01_MED10;Numeric;8;2;In my country, there are enough subcontractors, suppliers, and consultants to support new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F02_MED10;Numeric;8;2;In my country, new and growing firms can afford the cost of using subcontractors, suppliers, and consultants;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F03_MED10;Numeric;8;2;In my country, it is easy for new and growing firms to get good subcontractors, suppliers, and consultants;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F04_MED10;Numeric;8;2;In my country, it is easy for new and growing firms to get good, professional legal and accounting services;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F05_MED10;Numeric;8;2;In my country, it is easy for new and growing firms to get good banking services (checking accounts, foreign exchange transactions, letters of credit, and the like);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G01_MED10;Numeric;8;2;In my country, the markets for consumer goods and services change dramatically from year to year;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G02_MED10;Numeric;8;2;In my country, the markets for business-to-business goods and services change dramatically from year to year;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G03_MED10;Numeric;8;2;In my country, new and growing firms can easily enter new markets;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G04_MED10;Numeric;8;2;In my country, the new and growing firms can afford the cost of market entry;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G05_MED10;Numeric;8;2;In my country, new and growing firms can enter markets without being unfairly blocked by established firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G06_MED10;Numeric;8;2;In my country, the anti-trust legislation is effective and well enforced;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H01_MED10;Numeric;8;2;In my country, the physical infrastructure (roads, utilities, communications, waste disposal) provides good support for new and growing firms;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H02_MED10;Numeric;8;2;In my country, it is not too expensive for a new or growing firm to get good access to communications (phone, Internet, etc );{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H03_MED10;Numeric;8;2;In my country, a new or growing firm can get good access to communications (telephone, internet, etc ) in about a week;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H04_MED10;Numeric;8;2;In my country, new and growing firms can afford the cost of basic utilities (gas, water, electricity, sewer);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H05_MED10;Numeric;8;2;In my country, new or growing firms can get good access to utilities (gas, water, electricity, sewer) in about a month;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I01_MED10;Numeric;8;2;In my country, the national culture is highly supportive of individual success achieved through own personal efforts;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I02_MED10;Numeric;8;2;In my country, the national culture emphasizes self-sufficiency, autonomy, and personal initiative;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I03_MED10;Numeric;8;2;In my country, the national culture encourages entrepreneurial risk-taking;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I04_MED10;Numeric;8;2;In my country, the national culture encourages creativity and innovativeness;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I05_MED10;Numeric;8;2;In my country, the national culture emphasizes the responsibility that the individual (rather than the collective) has in managing his or her own life;{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+PRIN_COMP10;Numeric;8;2;AVERAGE VALUES OF THE SUMMARIZED BLOCKS OF VARIABLES BY PRINCIPAL COMPONENTS:;None;None;8;Right;Nominal;Input
+COUNTRY_4;Numeric;8;2;Phone code;{1,00, USA}...;None;8;Right;Scale;Input
+NES_ASUM_MEAN10;Numeric;8;2;Financial environment related with entrepreneurship (summary: block A);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_B1SUM_MEAN10;Numeric;8;2;Government concrete policies, priority and support (summary: B01, B02, B03);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_B2SUM_MEAN10;Numeric;8;2;Government policies bureaucracy, taxes (summary: B04, B05, B06, B07);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_CSUM_MEAN10;Numeric;8;2;Government programs (summary: block C);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_D1SUM_MEAN10;Numeric;8;2;Entrepreneurial level of education at Primary and Secondary (summary: D01, D02, D03);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_D2SUM_MEAN10;Numeric;8;2;Entrepreneurial level of education at Vocational, Professional, College and University (summary: D04, D05, D06);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_ESUM_MEAN10;Numeric;8;2;R&D level of transference (summary: block E);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_FSUM_MEAN10;Numeric;8;2;Professional and commercial infrastructure access (summary: block F);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_G1SUM_MEAN10;Numeric;8;2;Internal market dynamics (summary: G01, G02);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_G2SUM_MEAN10;Numeric;8;2;Internal market burdens (summary: G03, G04, G05, G06);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_HSUM_MEAN10;Numeric;8;2;Physical infrastructures and services access (summary: block H);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_ISUM_MEAN10;Numeric;8;2;Cultural, social norms and society support (summary: block I);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+STD_ERR10;Numeric;8;2;STANDARD ERRORS OF SUMMARY VARIABLES MEANS USEFUL TO CALCULATE CONFIDENCE INTERVALS;None;None;8;Right;Nominal;Input
+COUNTRY_5;Numeric;8;2;Phone code;{1,00, USA}...;None;8;Right;Scale;Input
+NES_ASUM_STDE10;Numeric;8;2;Financial environment related with entrepreneurship (summary: block A);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_B1SUM_STDE10;Numeric;8;2;Government concrete policies, priority and support (summary: B01, B02, B03);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_B2SUM_STDE10;Numeric;8;2;Government policies bureaucracy, taxes (summary: B04, B05, B06, B07);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_CSUM_STDE10;Numeric;8;2;Government programs (summary: block C);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_D1SUM_STDE10;Numeric;8;2;Entrepreneurial level of education at Primary and Secondary (summary: D01, D02, D03);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_D2SUM_STDE10;Numeric;8;2;Entrepreneurial level of education at Vocational, Professional, College and University (summary: D04, D05, D06);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_ESUM_STDE10;Numeric;8;2;R&D level of transference (summary: block E);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_FSUM_STDE10;Numeric;8;2;Professional and commercial infrastructure access (summary: block F);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_G1SUM_STDE10;Numeric;8;2;Internal market dynamics (summary: G01, G02);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_G2SUM_STDE10;Numeric;8;2;Internal market burdens (summary: G03, G04, G05, G06);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_HSUM_STDE10;Numeric;8;2;Physical infrastructures and services access (summary: block H);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_ISUM_STDE10;Numeric;8;2;Cultural, social norms and society support (summary: block I);{,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+ZSCORES_10;Numeric;8;2;STANDARDIZED SCORES OF THE AVERAGES OF THE SUMMARY VARIABLES;None;None;8;Right;Nominal;Input
+COUNTRY_6;Numeric;8;2;Phone code;{1,00, USA}...;None;8;Right;Scale;Input
+ZNES_ASUM_10;Numeric;8;2;Financial environment related with entrepreneurship (summary: block A);{-4,00, Very bad state}...;None;8;Right;Nominal;Input
+ZNES_B1SUM_10;Numeric;8;2;Government concrete policies, priority and support (summary: B01, B02, B03);{-4,00, Very bad state}...;None;8;Right;Nominal;Input
+ZNES_B2SUM_10;Numeric;8;2;Government policies bureaucracy, taxes (summary: B04, B05, B06, B07);{-4,00, Very bad state}...;None;8;Right;Nominal;Input
+ZNES_CSUM_10;Numeric;8;2;Government programs (summary: block C);{-4,00, Very bad state}...;None;8;Right;Nominal;Input
+ZNES_D1SUM_10;Numeric;8;2;Entrepreneurial level of education at Primary and Secondary (summary: D01, D02, D03);{-4,00, Very bad state}...;None;8;Right;Nominal;Input
+ZNES_D2SUM_10;Numeric;8;2;Entrepreneurial level of education at Vocational, Professional, College and University (summary: D04, D05, D06);{-4,00, Very bad state}...;None;8;Right;Nominal;Input
+ZNES_ESUM_10;Numeric;8;2;R&D level of transference (summary: block E);{-4,00, Very bad state}...;None;8;Right;Nominal;Input
+ZNES_FSUM_10;Numeric;8;2;Professional and commercial infrastructure access (summary: block F);{-4,00, Very bad state}...;None;8;Right;Nominal;Input
+ZNES_G1SUM_10;Numeric;8;2;Internal market dynamics (summary: G01, G02);{-4,00, Very bad state}...;None;8;Right;Nominal;Input
+ZNES_G2SUM_10;Numeric;8;2;Internal market burdens (summary: G03, G04, G05, G06);{-4,00, Very bad state}...;None;8;Right;Nominal;Input
+ZNES_HSUM_10;Numeric;8;2;Physical infrastructures and services access (summary: block H);{-4,00, Very bad state}...;None;8;Right;Nominal;Input
+ZNES_ISUM_10;Numeric;8;2;Cultural, social norms and society support (summary: block I);{-4,00, Very bad state}...;None;8;Right;Nominal;Input
+NECI_VARS;Numeric;8;2;NECI VARIABLES (NECI = NATIONAL ENTREPRENEURSHIP CONTEXT COMPOSITE INDEX);None;None;8;Right;Nominal;Input
+COUNTRY_7;Numeric;8;2;Phone code;{1,00, USA}...;None;8;Right;Scale;Input
+IMPORTANCE_MEANS;Numeric;8;2;AVERAGE SCORE ON IMPORTANCE OF EACH EFC (AVERAGE WEIGHTS OF THE NECI INDEX first version);None;None;8;Right;Nominal;Input
+W1_ASUM_MEAN10;Numeric;8;2;Average weight, influence or importance of financial environment related with entrepreneurship on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W2_B1SUM_MEAN10;Numeric;8;2;Average weight, influence or importance of government concrete policies, priority and support on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W3_B2SUM_MEAN10;Numeric;8;2;Average weight, influence or importance of government policies bureaucracy, taxes on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W4_CSUM_MEAN10;Numeric;8;2;Average weight, influence or importance of government programs on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W5_D1SUM_MEAN10;Numeric;8;2;Average weight, influence or importance of entrepreneurial level of education at Primary and Secondary on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W6_D2SUM_MEAN10;Numeric;8;2;Average weight, influence or importance of entrepreneurial level of education at Vocational, Professional, College and University on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W7_ESUM_MEAN10;Numeric;8;2;Average weight, influence or importance of R&D level of transference on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W8_FSUM_MEAN10;Numeric;8;2;Average weight, influence or importance of professional and commercial infrastructure access on this year's general status of national (regional, city) framework conditions;None;None;8;Right;Nominal;Input
+W9_G1SUM_MEAN10;Numeric;8;2;Average weight, influence or importance of internal market dynamics on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W10_G2SUM_MEAN10;Numeric;8;2;Average weight, influence or importance of internal market burdens on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W11_HSUM_MEAN10;Numeric;8;2;Average weight, influence or importance of physical infrastructures and services access on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W12_ISUM_MEAN10;Numeric;8;2;Average weight, influence or importance of cultural, social norms and society support on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+IMPORTANCE_STD;Numeric;8;2;STANDARD DEVIATIONS FOR AVERAGE WEIGHTS OF THE NECI INDEX first version;None;None;8;Right;Nominal;Input
+W1_ASUM_STD10;Numeric;8;2;Standard deviation, influence or importance of financial environment related with entrepreneurship on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W2_B1SUM_STD10;Numeric;8;2;Standard deviation, influence or importance of government concrete policies, priority and support on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W3_B2SUM_STD10;Numeric;8;2;Standard deviation, influence or importance of government policies bureaucracy, taxes on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W4_CSUM_STD10;Numeric;8;2;Standard deviation, influence or importance of government programs on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W5_D1SUM_STD10;Numeric;8;2;Standard deviation, influence or importance of entrepreneurial level of education at Primary and Secondary on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W6_D2SUM_STD10;Numeric;8;2;Standard deviation, influence or importance of entrepreneurial level of education at Vocational, Professional, College and University on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W7_ESUM_STD10;Numeric;8;2;Standard deviation, influence or importance of R&D level of transference on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W8_FSUM_STD10;Numeric;8;2;Standard deviation, influence or importance of professional and commercial infrastructure access on this year's general status of national (regional, city) framework conditions;None;None;8;Right;Nominal;Input
+W9_G1SUM_STD10;Numeric;8;2;Standard deviation, influence or importance of internal market dynamics on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W10_G2SUM_STD10;Numeric;8;2;Standard deviation, influence or importance of internal market burdens on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W11_HSUM_STD10;Numeric;8;2;Standard deviation, influence or importance of physical infrastructures and services access on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+W12_ISUM_STD10;Numeric;8;2;Standard deviation, influence or importance of cultural, social norms and society support on this year's general status of national (regional, city...) framework conditions;None;None;8;Right;Nominal;Input
+COMPOSITE_I;Numeric;8;2;NECI COMPOSITE INDEX, AVERAGE VALUES AND STANDARD DEVIATION;None;None;8;Right;Nominal;Input
+NECI1_MEAN10;Numeric;8;2;NECI VERSION 1 (weighted by importances) Average score for the National Entrepreneurship Context Index in 10 points scale;None;None;8;Right;Nominal;Input
+NECI1_STD10;Numeric;8;2;NECI VERSION 1 (weighted by importances) Standard deviation for the National Entrepreneurship Context Index in 10 points scale;None;None;8;Right;Nominal;Input
+NECI2_MEAN10;Numeric;8;2;NECI VERSION 2 (weighted using regression coeficients) Average score for the National Entrepreneurship Context Index in 10 points scale;None;None;8;Right;Nominal;Input
+NECI2_STD10;Numeric;8;2;NECI VERSION 2 (weighted using regression coefficients) Standard deviation for the National Entrepreneurship Context Index in 10 points scale;None;None;8;Right;Nominal;Input
+NECI3_MEAN10;Numeric;8;2;FINAL NECI VERSION 3 NOT WEIGHTED mean;None;None;8;Right;Scale;Input
+NECI3_STD10;Numeric;8;2;FINAL NECI VERSION 3 NOT WEIGHTED standard deviation;None;None;8;Right;Scale;Input
+OPENEDQ;Numeric;8;2;OPENED QUESTIONS: % OF RESPONSES FOR EACH TOPIC;None;None;8;Right;Nominal;Input
+CONSTRAINS;String;1;0;% OF CITED CONSTRAINS (MULTIRESPONSE VARIABLES);None;None;11;Left;Nominal;Input
+COUNTRY_8;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+CFS;Numeric;8;2;Constrains Financial support;None;None;8;Right;Nominal;Input
+CGPL;Numeric;8;2;Constrains Government policies;None;None;8;Right;Nominal;Input
+CGPR;Numeric;8;2;Constrains Government programs;None;None;8;Right;Nominal;Input
+CET;Numeric;8;2;Constrains E&T;None;None;8;Right;Nominal;Input
+CRD;Numeric;8;2;Constrains R&D transfer;None;None;8;Right;Nominal;Input
+CCPI;Numeric;8;2;Constrains Commercial Infrastructure;None;None;8;Right;Nominal;Input
+CMKO;Numeric;8;2;Constrains Internal Market Openess;None;None;8;Right;Nominal;Input
+CPIA;Numeric;8;2;Constrains Physical Infrastructure Access;None;None;8;Right;Nominal;Input
+CCSN;Numeric;8;2;Constrains Cultural & Social Norms;None;None;8;Right;Nominal;Input
+CEC;Numeric;8;2;Constrains Capacity for Entrepreneurship;None;None;8;Right;Nominal;Input
+CECCL;Numeric;8;2;Constrains Economic climate;None;None;8;Right;Nominal;Input
+CWFF;Numeric;8;2;Constrains Work Force Features;None;None;8;Right;Nominal;Input
+CPPC;Numeric;8;2;Constrains Perceived Population Composition;None;None;8;Right;Nominal;Input
+CPIS;Numeric;8;2;Constrains Political, Institutional and Social Context;None;None;8;Right;Nominal;Input
+CECR;Numeric;8;2;Constrains Economic Crisis;None;None;8;Right;Nominal;Input
+CCOR;Numeric;8;2;Constrains Corruption;None;None;8;Right;Nominal;Input
+CDP;Numeric;8;2;Constrains Different performing of small, medium and large companies;None;None;8;Right;Nominal;Input
+CINT;Numeric;8;2;Constrains Internationalization;None;None;8;Right;Nominal;Input
+CLCO;Numeric;8;2;Constrains Labor costs, access and regulation;None;None;8;Right;Nominal;Input
+CINF;Numeric;8;2;Constrains Information: all responses related to this issue;None;None;8;Right;Nominal;Input
+COTH;Numeric;8;2;Constrains other, don't know;None;None;8;Right;Nominal;Input
+SUPPORTS;String;1;0;% OF CITED SUPPORTS (MULTIRESPONSE VARIABLES);None;None;10;Left;Nominal;Input
+COUNTRY_9;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+SFS;Numeric;8;2;Supports Financial support;None;None;8;Right;Nominal;Input
+SGPL;Numeric;8;2;Supports Government policies;None;None;8;Right;Nominal;Input
+SGPR;Numeric;8;2;Supports Government programs;None;None;8;Right;Nominal;Input
+SET;Numeric;8;2;Supports E&T;None;None;8;Right;Nominal;Input
+SRD;Numeric;8;2;Supports R&D transfer;None;None;8;Right;Nominal;Input
+SCPI;Numeric;8;2;Supports Commercial Infrastructure;None;None;8;Right;Nominal;Input
+SMKO;Numeric;8;2;Supports Internal Market Openess;None;None;8;Right;Nominal;Input
+SOIA;Numeric;8;2;Supports Physical Infrastructure Access;None;None;8;Right;Nominal;Input
+SCSN;Numeric;8;2;Supports Cultural & Social Norms;None;None;8;Right;Nominal;Input
+SEC;Numeric;8;2;Supports Capacity for Entrepreneurship;None;None;8;Right;Nominal;Input
+SECCL;Numeric;8;2;Supports Economic climate;None;None;8;Right;Nominal;Input
+SWFF;Numeric;8;2;Supports Work Force Features;None;None;8;Right;Nominal;Input
+SPPC;Numeric;8;2;Supports Perceived Population Composition;None;None;8;Right;Nominal;Input
+SPIS;Numeric;8;2;Supports Political, Institutional and Social Context;None;None;8;Right;Nominal;Input
+SECR;Numeric;8;2;Supports Economic Crisis;None;None;8;Right;Scale;Input
+SCOR;Numeric;8;2;Supports Corruption;None;None;8;Right;Scale;Input
+SDP;Numeric;8;2;Supports Different performing of small, medium and large companies;None;None;8;Right;Scale;Input
+SINT;Numeric;8;2;Supports Internationalization;None;None;8;Right;Scale;Input
+SLCO;Numeric;8;2;Supports Labor costs, access and regulation;None;None;8;Right;Scale;Input
+SINF;Numeric;8;2;Supports Information: all responses related to this issue;None;None;8;Right;Scale;Input
+SOTH;Numeric;8;2;Supports other, don't know;None;None;8;Right;Nominal;Input
+RECOM;String;1;0;% OF CITED RECOMMENDATIONS (MULTIRESPONSE VARIABLES);None;None;8;Left;Nominal;Input
+COUNTRY_10;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+RFS;Numeric;8;2;Recommended Financial support;None;None;8;Right;Nominal;Input
+RGPL;Numeric;8;2;Recommended Government policies;None;None;8;Right;Nominal;Input
+RGPR;Numeric;8;2;Recommended Government programs;None;None;8;Right;Nominal;Input
+RET;Numeric;8;2;Recommended E&T;None;None;8;Right;Nominal;Input
+RRD;Numeric;8;2;Recommended R&D transfer;None;None;8;Right;Nominal;Input
+RCPI;Numeric;8;2;Recommended Commercial Infrastructure;None;None;8;Right;Nominal;Input
+RMKO;Numeric;8;2;Recommended Internal Market Openess;None;None;8;Right;Nominal;Input
+ROIA;Numeric;8;2;Recommended Physical Infrastructure Access;None;None;8;Right;Nominal;Input
+RCSN;Numeric;8;2;Recommended Cultural & Social Norms;None;None;8;Right;Nominal;Input
+REC;Numeric;8;2;Recommended Capacity for Entrepreneurship;None;None;8;Right;Nominal;Input
+RECCL;Numeric;8;2;Recommended Economic climate;None;None;8;Right;Nominal;Input
+RWFF;Numeric;8;2;Recommended Work Force Features;None;None;8;Right;Nominal;Input
+RPPC;Numeric;8;2;Recommended Perceived Population Composition;None;None;8;Right;Nominal;Input
+RPIS;Numeric;8;2;Recommended Political, Institutional and Social Context;None;None;8;Right;Nominal;Input
+RECR;Numeric;8;2;Recommended Economic Crisis;None;None;8;Right;Scale;Input
+RCOR;Numeric;8;2;Recommended Corruption;None;None;8;Right;Scale;Input
+RDP;Numeric;8;2;Recommended Different performing of small, medium and large companies;None;None;8;Right;Scale;Input
+RINT;Numeric;8;2;Recommended Internationalization;None;None;8;Right;Scale;Input
+RLCO;Numeric;8;2;Recommended Labor costs, access and regulation;None;None;8;Right;Scale;Input
+RINF;Numeric;8;2;Recommended Information: all responses related to this issue;None;None;8;Right;Scale;Input
+ROTH;Numeric;8;2;Recommended other, don't know;None;None;8;Right;Nominal;Input
+MEANS9;String;1;0;AVERAGE (MEAN) VALUE FOR EACH PARTICIPATING COUNTRY OR REGION IN GEM 2012 OF THE FOLLOWING VARIABLES:;None;None;6;Left;Nominal;Input
+COUNTRY_11;Numeric;8;2;Phone code;{1,00, USA}...;None;8;Right;Scale;Input
+NES_INQ_MEAN9;Numeric;8;2;How do you perceive the current overall state of your country’s (name of the country, region, city…) context for entrepreneurs or set of framework conditions that are facing entrepreneurs to develop their activities:;{1,00, Extremelly bad conditions}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A01_MEAN9;Numeric;8;2;In my country, there is sufficient equity funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A02_MEAN9;Numeric;8;2;In my country, there is sufficient debt funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A03_MEAN9;Numeric;8;2;In my country, there are sufficient government subsidies available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;7;Right;Scale;Input
+NES_A04_MEAN9;Numeric;8;2;In my country, there is sufficient funding available from informal investors (family, friends and colleagues) who are private individuals (other than founders) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;7;Right;Scale;Input
+NES_A05_MEAN9;Numeric;8;2;In my country, there is sufficient funding available from professional Business Angels for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;7;Right;Scale;Input
+NES_A06_MEAN9;Numeric;8;2;In my country, there is sufficient funding available from venture capitalists for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;7;Right;Scale;Input
+NES_A07_MEAN9;Numeric;8;2;In my country, there is sufficient funding available through initial public offerings (IPOs) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A08_MEAN9;Numeric;8;2;In my country, there is sufficient funding available through private lenders' funding (crowdfunding) available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B01_MEAN9;Numeric;8;2;In my country, Government policies (e g , public procurement) consistently favor new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;6;Right;Scale;Input
+NES_B02_MEAN9;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the national government level;{1,00, Completely false}...;97,00, 98,00, 99,00;7;Right;Scale;Input
+NES_B03_MEAN9;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the local government level;{1,00, Completely false}...;97,00, 98,00, 99,00;7;Right;Scale;Input
+NES_B04_MEAN9;Numeric;8;2;In my country, new firms can get most of the required permits and licenses in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B05_MEAN9;Numeric;8;2;In my country, the amount of taxes is NOT a burden for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;6;Right;Scale;Input
+NES_B06_MEAN9;Numeric;8;2;In my country, taxes and other government regulations are applied to new and growing firms in a predictable and consistent way;{1,00, Completely false}...;97,00, 98,00, 99,00;7;Right;Scale;Input
+NES_B07_MEAN9;Numeric;8;2;In my country, coping with government bureaucracy, regulations, and licensing requirements it is not unduly difficult for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C01_MEAN9;Numeric;8;2;In my country, a wide range of government assistance for new and growing firms can be obtained through contact with a single agency;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_C02_MEAN9;Numeric;8;2;In my country, science parks and business incubators provide effective support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_C03_MEAN9;Numeric;8;2;In my country, there are an adequate number of government programs for new and growing businesses;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_C04_MEAN9;Numeric;8;2;In my country, the people working for government agencies are competent and effective in supporting new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_C05_MEAN9;Numeric;8;2;In my country, almost anyone who needs help from a government program for a new or growing business can find what they need;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_C06_MEAN9;Numeric;8;2;In my country, Government programs aimed at supporting new and growing firms are effective;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_D01_MEAN9;Numeric;8;2;In my country, teaching in primary and secondary education encourages creativity, self-sufficiency, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_D02_MEAN9;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate instruction in market economic principles;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_D03_MEAN9;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate attention to entrepreneurship and new firm creation;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_D04_MEAN9;Numeric;8;2;In my country, Colleges and universities provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_D05_MEAN9;Numeric;8;2;In my country, the level of business and management education provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_D06_MEAN9;Numeric;8;2;In my country, the vocational, professional, and continuing education systems provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_E01_MEAN9;Numeric;8;2;In my country, new technology, science, and other knowledge are efficiently transferred from universities and public research centers to new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_E02_MEAN9;Numeric;8;2;In my country, new and growing firms have just as much access to new research and technology as large, established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_E03_MEAN9;Numeric;8;2;In my country, new and growing firms can afford the latest technology;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_E04_MEAN9;Numeric;8;2;In my country, there are adequate government subsidies for new and growing firms to acquire new technology;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_E05_MEAN9;Numeric;8;2;In my country, the science and technology base efficiently supports the creation of world-class new technology-based ventures in at least one area;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_E06_MEAN9;Numeric;8;2;In my country, there is good support available for engineers and scientists to have their ideas commercialized through new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_F01_MEAN9;Numeric;8;2;In my country, there are enough subcontractors, suppliers, and consultants to support new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_F02_MEAN9;Numeric;8;2;In my country, new and growing firms can afford the cost of using subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_F03_MEAN9;Numeric;8;2;In my country, it is easy for new and growing firms to get good subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_F04_MEAN9;Numeric;8;2;In my country, it is easy for new and growing firms to get good, professional legal and accounting services;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_F05_MEAN9;Numeric;8;2;In my country, it is easy for new and growing firms to get good banking services (checking accounts, foreign exchange transactions, letters of credit, and the like);{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_G01_MEAN9;Numeric;8;2;In my country, the markets for consumer goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_G02_MEAN9;Numeric;8;2;In my country, the markets for business-to-business goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_G03_MEAN9;Numeric;8;2;In my country, new and growing firms can easily enter new markets;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_G04_MEAN9;Numeric;8;2;In my country, the new and growing firms can afford the cost of market entry;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_G05_MEAN9;Numeric;8;2;In my country, new and growing firms can enter markets without being unfairly blocked by established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_G06_MEAN9;Numeric;8;2;In my country, the anti-trust legislation is effective and well enforced;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_H01_MEAN9;Numeric;8;2;In my country, the physical infrastructure (roads, utilities, communications, waste disposal) provides good support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_H02_MEAN9;Numeric;8;2;In my country, it is not too expensive for a new or growing firm to get good access to communications (phone, Internet, etc );{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_H03_MEAN9;Numeric;8;2;In my country, a new or growing firm can get good access to communications (telephone, internet, etc ) in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_H04_MEAN9;Numeric;8;2;In my country, new and growing firms can afford the cost of basic utilities (gas, water, electricity, sewer);{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_H05_MEAN9;Numeric;8;2;In my country, new or growing firms can get good access to utilities (gas, water, electricity, sewer) in about a month;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_I01_MEAN9;Numeric;8;2;In my country, the national culture is highly supportive of individual success achieved through own personal efforts;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_I02_MEAN9;Numeric;8;2;In my country, the national culture emphasizes self-sufficiency, autonomy, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_I03_MEAN9;Numeric;8;2;In my country, the national culture encourages entrepreneurial risk-taking;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_I04_MEAN9;Numeric;8;2;In my country, the national culture encourages creativity and innovativeness;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+NES_I05_MEAN9;Numeric;8;2;In my country, the national culture emphasizes the responsibility that the individual (rather than the collective) has in managing his or her own life;{1,00, Completely false}...;97,00, 98,00, 99,00;13;Right;Scale;Input
+STDDEV9;String;1;0;STANDARD DEVIATIONS FOR EACH VARIABLE OF THE CLOSED PART OF THE NES QUESTIONNAIRE;None;None;8;Left;Nominal;Input
+COUNTRY_12;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_INQ_SD9;Numeric;8;2;How do you perceive the current overall state of your country’s (name of the country, region, city…) context for entrepreneurs or set of framework conditions that are facing entrepreneurs to develop their activities:;{1,00, Extremelly bad conditions}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A01_SD9;Numeric;8;2;In my country, there is sufficient equity funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;10;Right;Scale;Input
+NES_A02_SD9;Numeric;8;2;In my country, there is sufficient debt funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A03_SD9;Numeric;8;2;In my country, there are sufficient government subsidies available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A04_SD9;Numeric;8;2;In my country, there is sufficient funding available from informal investors (family, friends and colleagues) who are private individuals (other than founders) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A05_SD9;Numeric;8;2;In my country, there is sufficient funding available from professional Business Angels for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A06_SD9;Numeric;8;2;In my country, there is sufficient funding available from venture capitalists for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A07_SD9;Numeric;8;2;In my country, there is sufficient funding available through initial public offerings (IPOs) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A08_SD9;Numeric;8;2;In my country, there is sufficient funding available through private lenders' funding (crowdfunding) available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B01_SD9;Numeric;8;2;In my country, Government policies (e g , public procurement) consistently favor new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B02_SD9;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the national government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B03_SD9;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the local government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B04_SD9;Numeric;8;2;In my country, new firms can get most of the required permits and licenses in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B05_SD9;Numeric;8;2;In my country, the amount of taxes is NOT a burden for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B06_SD9;Numeric;8;2;In my country, taxes and other government regulations are applied to new and growing firms in a predictable and consistent way;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B07_SD9;Numeric;8;2;In my country, coping with government bureaucracy, regulations, and licensing requirements it is not unduly difficult for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C01_SD9;Numeric;8;2;In my country, a wide range of government assistance for new and growing firms can be obtained through contact with a single agency;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C02_SD9;Numeric;8;2;In my country, science parks and business incubators provide effective support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C03_SD9;Numeric;8;2;In my country, there are an adequate number of government programs for new and growing businesses;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C04_SD9;Numeric;8;2;In my country, the people working for government agencies are competent and effective in supporting new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C05_SD9;Numeric;8;2;In my country, almost anyone who needs help from a government program for a new or growing business can find what they need;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C06_SD9;Numeric;8;2;In my country, Government programs aimed at supporting new and growing firms are effective;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D01_SD9;Numeric;8;2;In my country, teaching in primary and secondary education encourages creativity, self-sufficiency, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D02_SD9;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate instruction in market economic principles;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D03_SD9;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate attention to entrepreneurship and new firm creation;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D04_SD9;Numeric;8;2;In my country, Colleges and universities provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D05_SD9;Numeric;8;2;In my country, the level of business and management education provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D06_SD9;Numeric;8;2;In my country, the vocational, professional, and continuing education systems provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E01_SD9;Numeric;8;2;In my country, new technology, science, and other knowledge are efficiently transferred from universities and public research centers to new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E02_SD9;Numeric;8;2;In my country, new and growing firms have just as much access to new research and technology as large, established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E03_SD9;Numeric;8;2;In my country, new and growing firms can afford the latest technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E04_SD9;Numeric;8;2;In my country, there are adequate government subsidies for new and growing firms to acquire new technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E05_SD9;Numeric;8;2;In my country, the science and technology base efficiently supports the creation of world-class new technology-based ventures in at least one area;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E06_SD9;Numeric;8;2;In my country, there is good support available for engineers and scientists to have their ideas commercialized through new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F01_SD9;Numeric;8;2;In my country, there are enough subcontractors, suppliers, and consultants to support new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F02_SD9;Numeric;8;2;In my country, new and growing firms can afford the cost of using subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F03_SD9;Numeric;8;2;In my country, it is easy for new and growing firms to get good subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F04_SD9;Numeric;8;2;In my country, it is easy for new and growing firms to get good, professional legal and accounting services;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F05_SD9;Numeric;8;2;In my country, it is easy for new and growing firms to get good banking services (checking accounts, foreign exchange transactions, letters of credit, and the like);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G01_SD9;Numeric;8;2;In my country, the markets for consumer goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G02_SD9;Numeric;8;2;In my country, the markets for business-to-business goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G03_SD9;Numeric;8;2;In my country, new and growing firms can easily enter new markets;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G04_SD9;Numeric;8;2;In my country, the new and growing firms can afford the cost of market entry;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G05_SD9;Numeric;8;2;In my country, new and growing firms can enter markets without being unfairly blocked by established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G06_SD9;Numeric;8;2;In my country, the anti-trust legislation is effective and well enforced;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H01_SD9;Numeric;8;2;In my country, the physical infrastructure (roads, utilities, communications, waste disposal) provides good support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H02_SD9;Numeric;8;2;In my country, it is not too expensive for a new or growing firm to get good access to communications (phone, Internet, etc );{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H03_SD9;Numeric;8;2;In my country, a new or growing firm can get good access to communications (telephone, internet, etc ) in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H04_SD9;Numeric;8;2;In my country, new and growing firms can afford the cost of basic utilities (gas, water, electricity, sewer);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H05_SD9;Numeric;8;2;In my country, new or growing firms can get good access to utilities (gas, water, electricity, sewer) in about a month;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I01_SD9;Numeric;8;2;In my country, the national culture is highly supportive of individual success achieved through own personal efforts;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I02_SD9;Numeric;8;2;In my country, the national culture emphasizes self-sufficiency, autonomy, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I03_SD9;Numeric;8;2;In my country, the national culture encourages entrepreneurial risk-taking;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I04_SD9;Numeric;8;2;In my country, the national culture encourages creativity and innovativeness;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I05_SD9;Numeric;8;2;In my country, the national culture emphasizes the responsibility that the individual (rather than the collective) has in managing his or her own life;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+MEDIANS9;Numeric;8;2;MEDIANS OF THE ORIGINAL VARIABLES: RECOMMENDED ALTERNATIVE FOR THE MEAN FOR LIKERT SCALES;None;None;8;Right;Nominal;Input
+COUNTRY_13;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_INQ_MED9;Numeric;8;2;How do you perceive the current overall state of your country’s (name of the country, region, city…) context for entrepreneurs or set of framework conditions that are facing entrepreneurs to develop their activities:;{1,00, Extremelly bad conditions}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A01_MED9;Numeric;8;2;In my country, there is sufficient equity funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A02_MED9;Numeric;8;2;In my country, there is sufficient debt funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A03_MED9;Numeric;8;2;In my country, there are sufficient government subsidies available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A04_MED9;Numeric;8;2;In my country, there is sufficient funding available from informal investors (family, friends and colleagues) who are private individuals (other than founders) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A05_MED9;Numeric;8;2;In my country, there is sufficient funding available from professional Business Angels for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A06_MED9;Numeric;8;2;In my country, there is sufficient funding available from venture capitalists for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A07_MED9;Numeric;8;2;In my country, there is sufficient funding available through initial public offerings (IPOs) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A08_MED9;Numeric;8;2;In my country, there is sufficient funding available through private lenders' funding (crowdfunding) available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B01_MED9;Numeric;8;2;In my country, Government policies (e g , public procurement) consistently favor new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B02_MED9;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the national government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B03_MED9;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the local government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B04_MED9;Numeric;8;2;In my country, new firms can get most of the required permits and licenses in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B05_MED9;Numeric;8;2;In my country, the amount of taxes is NOT a burden for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B06_MED9;Numeric;8;2;In my country, taxes and other government regulations are applied to new and growing firms in a predictable and consistent way;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B07_MED9;Numeric;8;2;In my country, coping with government bureaucracy, regulations, and licensing requirements it is not unduly difficult for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C01_MED9;Numeric;8;2;In my country, a wide range of government assistance for new and growing firms can be obtained through contact with a single agency;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C02_MED9;Numeric;8;2;In my country, science parks and business incubators provide effective support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C03_MED9;Numeric;8;2;In my country, there are an adequate number of government programs for new and growing businesses;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C04_MED9;Numeric;8;2;In my country, the people working for government agencies are competent and effective in supporting new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C05_MED9;Numeric;8;2;In my country, almost anyone who needs help from a government program for a new or growing business can find what they need;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C06_MED9;Numeric;8;2;In my country, Government programs aimed at supporting new and growing firms are effective;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D01_MED9;Numeric;8;2;In my country, teaching in primary and secondary education encourages creativity, self-sufficiency, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D02_MED9;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate instruction in market economic principles;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D03_MED9;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate attention to entrepreneurship and new firm creation;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D04_MED9;Numeric;8;2;In my country, Colleges and universities provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D05_MED9;Numeric;8;2;In my country, the level of business and management education provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D06_MED9;Numeric;8;2;In my country, the vocational, professional, and continuing education systems provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E01_MED9;Numeric;8;2;In my country, new technology, science, and other knowledge are efficiently transferred from universities and public research centers to new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E02_MED9;Numeric;8;2;In my country, new and growing firms have just as much access to new research and technology as large, established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E03_MED9;Numeric;8;2;In my country, new and growing firms can afford the latest technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E04_MED9;Numeric;8;2;In my country, there are adequate government subsidies for new and growing firms to acquire new technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E05_MED9;Numeric;8;2;In my country, the science and technology base efficiently supports the creation of world-class new technology-based ventures in at least one area;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E06_MED9;Numeric;8;2;In my country, there is good support available for engineers and scientists to have their ideas commercialized through new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F01_MED9;Numeric;8;2;In my country, there are enough subcontractors, suppliers, and consultants to support new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F02_MED9;Numeric;8;2;In my country, new and growing firms can afford the cost of using subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F03_MED9;Numeric;8;2;In my country, it is easy for new and growing firms to get good subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F04_MED9;Numeric;8;2;In my country, it is easy for new and growing firms to get good, professional legal and accounting services;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F05_MED9;Numeric;8;2;In my country, it is easy for new and growing firms to get good banking services (checking accounts, foreign exchange transactions, letters of credit, and the like);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G01_MED9;Numeric;8;2;In my country, the markets for consumer goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G02_MED9;Numeric;8;2;In my country, the markets for business-to-business goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G03_MED9;Numeric;8;2;In my country, new and growing firms can easily enter new markets;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G04_MED9;Numeric;8;2;In my country, the new and growing firms can afford the cost of market entry;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G05_MED9;Numeric;8;2;In my country, new and growing firms can enter markets without being unfairly blocked by established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G06_MED9;Numeric;8;2;In my country, the anti-trust legislation is effective and well enforced;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H01_MED9;Numeric;8;2;In my country, the physical infrastructure (roads, utilities, communications, waste disposal) provides good support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H02_MED9;Numeric;8;2;In my country, it is not too expensive for a new or growing firm to get good access to communications (phone, Internet, etc );{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H03_MED9;Numeric;8;2;In my country, a new or growing firm can get good access to communications (telephone, internet, etc ) in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H04_MED9;Numeric;8;2;In my country, new and growing firms can afford the cost of basic utilities (gas, water, electricity, sewer);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H05_MED9;Numeric;8;2;In my country, new or growing firms can get good access to utilities (gas, water, electricity, sewer) in about a month;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I01_MED9;Numeric;8;2;In my country, the national culture is highly supportive of individual success achieved through own personal efforts;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I02_MED9;Numeric;8;2;In my country, the national culture emphasizes self-sufficiency, autonomy, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I03_MED9;Numeric;8;2;In my country, the national culture encourages entrepreneurial risk-taking;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I04_MED9;Numeric;8;2;In my country, the national culture encourages creativity and innovativeness;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I05_MED9;Numeric;8;2;In my country, the national culture emphasizes the responsibility that the individual (rather than the collective) has in managing his or her own life;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+PRINCIPAL_COMP9;String;1;0;AVERAGE VALUES OF THE SUMMARIZED BLOCKS OF VARIABLES BY PRINCIPAL COMPONENTS:;None;None;8;Left;Nominal;Input
+COUNTRY_14;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_ASUM_MEAN9;Numeric;8;2;Financial environment related with entrepreneurship (summary);None;None;8;Right;Scale;Input
+NES_B1SUM_MEAN9;Numeric;8;2;Government concrete policies, priority and support (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B2SUM_MEAN9;Numeric;8;2;Government policies bureaucracy, taxes (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_CSUM_MEAN9;Numeric;8;2;Government programs (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D1SUM_MEAN9;Numeric;8;2;Entrepreneurial level of education at Primary and Secondary (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D2SUM_MEAN9;Numeric;8;2;Entrepreneurial level of education at Vocational, Professional, College and University (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_ESUM_MEAN9;Numeric;8;2;R&D level of transference (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_FSUM_MEAN9;Numeric;8;2;Professional and commercial infrastructure access (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G1SUM_MEAN9;Numeric;8;2;Internal market dynamics (summary);None;97,00, 98,00, 99,00;9;Right;Scale;Input
+NES_G2SUM_MEAN9;Numeric;8;2;Internal market burdens (summary);None;97,00, 98,00, 99,00;9;Right;Scale;Input
+NES_HSUM_MEAN9;Numeric;8;2;Physical infrastructures and services access (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_ISUM_MEAN9;Numeric;8;2;Cultural, social norms and society support (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+STD_ERR9;String;1;0;STANDARD ERRORS OF SUMMARY VARIABLES MEANS USEFUL TO CALCULATE CONFIDENCE INTERVALS;None;None;8;Left;Nominal;Input
+COUNTRY_15;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_ASUM_STDE9;Numeric;8;2;Financial environment related with entrepreneurship (std err);None;None;8;Right;Scale;Input
+NES_B1SUM_STDE9;Numeric;8;2;Government concrete policies, priority and support (std err);None;None;8;Right;Scale;Input
+NES_B2SUM_STDE9;Numeric;8;2;Government policies bureaucracy, taxes (std err);None;None;8;Right;Scale;Input
+NES_CSUM_STDE9;Numeric;8;2;Government programs (std err);None;None;8;Right;Scale;Input
+NES_D1SUM_STDE9;Numeric;8;2;Entrepreneurial level of education at Primary and Secondary (std err);None;None;8;Right;Scale;Input
+NES_D2SUM_STDE9;Numeric;8;2;Entrepreneurial level of education at Vocational, Professional, College and University (std err);None;None;8;Right;Scale;Input
+NES_ESUM_STDE9;Numeric;8;2;R&D level of transference (std err);None;None;8;Right;Scale;Input
+NES_FSUM_STDE9;Numeric;8;2;Professional and commercial infrastructure access (std err);None;None;8;Right;Scale;Input
+NES_G1SUM_STDE9;Numeric;8;2;Internal market dynamics (std err);None;None;8;Right;Scale;Input
+NES_G2SUM_STDE9;Numeric;8;2;Internal market burdens (std err);None;None;8;Right;Scale;Input
+NES_HSUM_STDE9;Numeric;8;2;Physical infrastructures and services access (std err);None;None;8;Right;Scale;Input
+NES_ISUM_STDE9;Numeric;8;2;Cultural, social norms and society support (std err);None;None;8;Right;Scale;Input
+ZSCORES_9;String;1;0;STANDARDIZED SCORES OF THE AVERAGES OF THE SUMMARY VARIABLES;None;None;8;Left;Nominal;Input
+COUNTRY_16;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+ZNES_ASUM9;Numeric;8;2;Financial environment related with entrepreneurship (summary);None;None;8;Right;Scale;Input
+ZNES_B1SUM9;Numeric;8;2;Government concrete policies, priority and support (summary);None;None;8;Right;Scale;Input
+ZNES_B2SUM9;Numeric;8;2;Government policies bureaucracy, taxes (summary);None;None;8;Right;Scale;Input
+ZNES_CSUM9;Numeric;8;2;Government programs (summary);None;None;8;Right;Scale;Input
+ZNES_D1SUM9;Numeric;8;2;Entrepreneurial level of education at Primary and Secondary (summary);None;None;8;Right;Scale;Input
+ZNES_D2SUM9;Numeric;8;2;Entrepreneurial level of education at Vocational, Professional, College and University (summary);None;None;8;Right;Scale;Input
+ZNES_ESUM9;Numeric;8;2;R&D level of transference (summary);None;None;8;Right;Scale;Input
+ZNES_FSUM9;Numeric;8;2;Professional and commercial infrastructure access (summary);None;None;8;Right;Scale;Input
+ZNES_G1SUM9;Numeric;8;2;Internal market dynamics (summary);None;None;8;Right;Scale;Input
+ZNES_G2SUM9;Numeric;8;2;Internal market burdens (summary);None;None;8;Right;Scale;Input
+ZNES_HSUM9;Numeric;8;2;Physical infrastructures and services access (summary);None;None;8;Right;Scale;Input
+ZNES_ISUM9;Numeric;8;2;Cultural, social norms and society support (summary);None;None;8;Right;Scale;Input
+MEANS7;Numeric;8;2;AVERAGE (MEAN) VALUE FOR EACH PARTICIPATING COUNTRY OR REGION IN GEM 2012 OF THE FOLLOWING VARIABLES:;None;None;8;Right;Scale;Input
+COUNTRY_17;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_INQ_MEAN7;Numeric;8;2;How do you perceive the current overall state of your country’s (name of the country, region, city…) context for entrepreneurs or set of framework conditions that are facing entrepreneurs to develop their activities:;{1,00, Extremelly bad conditions}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A01_MEAN7;Numeric;8;2;In my country, there is sufficient equity funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A02_MEAN7;Numeric;8;2;In my country, there is sufficient debt funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A03_MEAN7;Numeric;8;2;In my country, there are sufficient government subsidies available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A04_MEAN7;Numeric;8;2;In my country, there is sufficient funding available from informal investors (family, friends and colleagues) who are private individuals (other than founders) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A05_MEAN7;Numeric;8;2;In my country, there is sufficient funding available from professional Business Angels for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A06_MEAN7;Numeric;8;2;In my country, there is sufficient funding available from venture capitalists for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A07_MEAN7;Numeric;8;2;In my country, there is sufficient funding available through initial public offerings (IPOs) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A08_MEAN7;Numeric;8;2;In my country, there is sufficient funding available through private lenders' funding (crowdfunding) available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B01_MEAN7;Numeric;8;2;In my country, Government policies (e g , public procurement) consistently favor new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B02_MEAN7;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the national government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B03_MEAN7;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the local government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B04_MEAN7;Numeric;8;2;In my country, new firms can get most of the required permits and licenses in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B05_MEAN7;Numeric;8;2;In my country, the amount of taxes is NOT a burden for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B06_MEAN7;Numeric;8;2;In my country, taxes and other government regulations are applied to new and growing firms in a predictable and consistent way;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B07_MEAN7;Numeric;8;2;In my country, coping with government bureaucracy, regulations, and licensing requirements it is not unduly difficult for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C01_MEAN7;Numeric;8;2;In my country, a wide range of government assistance for new and growing firms can be obtained through contact with a single agency;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C02_MEAN7;Numeric;8;2;In my country, science parks and business incubators provide effective support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C03_MEAN7;Numeric;8;2;In my country, there are an adequate number of government programs for new and growing businesses;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C04_MEAN7;Numeric;8;2;In my country, the people working for government agencies are competent and effective in supporting new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C05_MEAN7;Numeric;8;2;In my country, almost anyone who needs help from a government program for a new or growing business can find what they need;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C06_MEAN7;Numeric;8;2;In my country, Government programs aimed at supporting new and growing firms are effective;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D01_MEAN7;Numeric;8;2;In my country, teaching in primary and secondary education encourages creativity, self-sufficiency, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D02_MEAN7;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate instruction in market economic principles;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D03_MEAN7;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate attention to entrepreneurship and new firm creation;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D04_MEAN7;Numeric;8;2;In my country, Colleges and universities provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D05_MEAN7;Numeric;8;2;In my country, the level of business and management education provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D06_MEAN7;Numeric;8;2;In my country, the vocational, professional, and continuing education systems provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E01_MEAN7;Numeric;8;2;In my country, new technology, science, and other knowledge are efficiently transferred from universities and public research centers to new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E02_MEAN7;Numeric;8;2;In my country, new and growing firms have just as much access to new research and technology as large, established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E03_MEAN7;Numeric;8;2;In my country, new and growing firms can afford the latest technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E04_MEAN7;Numeric;8;2;In my country, there are adequate government subsidies for new and growing firms to acquire new technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E05_MEAN7;Numeric;8;2;In my country, the science and technology base efficiently supports the creation of world-class new technology-based ventures in at least one area;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E06_MEAN7;Numeric;8;2;In my country, there is good support available for engineers and scientists to have their ideas commercialized through new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F01_MEAN7;Numeric;8;2;In my country, there are enough subcontractors, suppliers, and consultants to support new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F02_MEAN7;Numeric;8;2;In my country, new and growing firms can afford the cost of using subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F03_MEAN7;Numeric;8;2;In my country, it is easy for new and growing firms to get good subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F04_MEAN7;Numeric;8;2;In my country, it is easy for new and growing firms to get good, professional legal and accounting services;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F05_MEAN7;Numeric;8;2;In my country, it is easy for new and growing firms to get good banking services (checking accounts, foreign exchange transactions, letters of credit, and the like);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G01_MEAN7;Numeric;8;2;In my country, the markets for consumer goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G02_MEAN7;Numeric;8;2;In my country, the markets for business-to-business goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G03_MEAN7;Numeric;8;2;In my country, new and growing firms can easily enter new markets;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G04_MEAN7;Numeric;8;2;In my country, the new and growing firms can afford the cost of market entry;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G05_MEAN7;Numeric;8;2;In my country, new and growing firms can enter markets without being unfairly blocked by established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G06_MEAN7;Numeric;8;2;In my country, the anti-trust legislation is effective and well enforced;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H01_MEAN7;Numeric;8;2;In my country, the physical infrastructure (roads, utilities, communications, waste disposal) provides good support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H02_MEAN7;Numeric;8;2;In my country, it is not too expensive for a new or growing firm to get good access to communications (phone, Internet, etc );{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H03_MEAN7;Numeric;8;2;In my country, a new or growing firm can get good access to communications (telephone, internet, etc ) in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H04_MEAN7;Numeric;8;2;In my country, new and growing firms can afford the cost of basic utilities (gas, water, electricity, sewer);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H05_MEAN7;Numeric;8;2;In my country, new or growing firms can get good access to utilities (gas, water, electricity, sewer) in about a month;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I01_MEAN7;Numeric;8;2;In my country, the national culture is highly supportive of individual success achieved through own personal efforts;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I02_MEAN7;Numeric;8;2;In my country, the national culture emphasizes self-sufficiency, autonomy, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I03_MEAN7;Numeric;8;2;In my country, the national culture encourages entrepreneurial risk-taking;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I04_MEAN7;Numeric;8;2;In my country, the national culture encourages creativity and innovativeness;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I05_MEAN7;Numeric;8;2;In my country, the national culture emphasizes the responsibility that the individual (rather than the collective) has in managing his or her own life;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+STDDEV7;Numeric;8;2;STANDARD DEVIATIONS FOR EACH VARIABLE OF THE CLOSED PART OF THE NES QUESTIONNAIRE;None;None;8;Right;Scale;Input
+COUNTRY_18;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_INQ_SD7;Numeric;8;2;How do you perceive the current overall state of your country’s (name of the country, region, city…) context for entrepreneurs or set of framework conditions that are facing entrepreneurs to develop their activities:;{1,00, Extremelly bad conditions}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A01_SD7;Numeric;8;2;In my country, there is sufficient equity funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A02_SD7;Numeric;8;2;In my country, there is sufficient debt funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A03_SD7;Numeric;8;2;In my country, there are sufficient government subsidies available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A04_SD7;Numeric;8;2;In my country, there is sufficient funding available from informal investors (family, friends and colleagues) who are private individuals (other than founders) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A05_SD7;Numeric;8;2;In my country, there is sufficient funding available from professional Business Angels for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A06_SD7;Numeric;8;2;In my country, there is sufficient funding available from venture capitalists for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A07_SD7;Numeric;8;2;In my country, there is sufficient funding available through initial public offerings (IPOs) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_A08_SD7;Numeric;8;2;In my country, there is sufficient funding available through private lenders' funding (crowdfunding) available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_B01_SD7;Numeric;8;2;In my country, Government policies (e g , public procurement) consistently favor new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B02_SD7;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the national government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B03_SD7;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the local government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B04_SD7;Numeric;8;2;In my country, new firms can get most of the required permits and licenses in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B05_SD7;Numeric;8;2;In my country, the amount of taxes is NOT a burden for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B06_SD7;Numeric;8;2;In my country, taxes and other government regulations are applied to new and growing firms in a predictable and consistent way;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B07_SD7;Numeric;8;2;In my country, coping with government bureaucracy, regulations, and licensing requirements it is not unduly difficult for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C01_SD7;Numeric;8;2;In my country, a wide range of government assistance for new and growing firms can be obtained through contact with a single agency;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C02_SD7;Numeric;8;2;In my country, science parks and business incubators provide effective support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C03_SD7;Numeric;8;2;In my country, there are an adequate number of government programs for new and growing businesses;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C04_SD7;Numeric;8;2;In my country, the people working for government agencies are competent and effective in supporting new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C05_SD7;Numeric;8;2;In my country, almost anyone who needs help from a government program for a new or growing business can find what they need;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C06_SD7;Numeric;8;2;In my country, Government programs aimed at supporting new and growing firms are effective;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D01_SD7;Numeric;8;2;In my country, teaching in primary and secondary education encourages creativity, self-sufficiency, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D02_SD7;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate instruction in market economic principles;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D03_SD7;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate attention to entrepreneurship and new firm creation;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D04_SD7;Numeric;8;2;In my country, Colleges and universities provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D05_SD7;Numeric;8;2;In my country, the level of business and management education provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D06_SD7;Numeric;8;2;In my country, the vocational, professional, and continuing education systems provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E01_SD7;Numeric;8;2;In my country, new technology, science, and other knowledge are efficiently transferred from universities and public research centers to new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E02_SD7;Numeric;8;2;In my country, new and growing firms have just as much access to new research and technology as large, established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E03_SD7;Numeric;8;2;In my country, new and growing firms can afford the latest technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E04_SD7;Numeric;8;2;In my country, there are adequate government subsidies for new and growing firms to acquire new technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E05_SD7;Numeric;8;2;In my country, the science and technology base efficiently supports the creation of world-class new technology-based ventures in at least one area;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E06_SD7;Numeric;8;2;In my country, there is good support available for engineers and scientists to have their ideas commercialized through new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F01_SD7;Numeric;8;2;In my country, there are enough subcontractors, suppliers, and consultants to support new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F02_SD7;Numeric;8;2;In my country, new and growing firms can afford the cost of using subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F03_SD7;Numeric;8;2;In my country, it is easy for new and growing firms to get good subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F04_SD7;Numeric;8;2;In my country, it is easy for new and growing firms to get good, professional legal and accounting services;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F05_SD7;Numeric;8;2;In my country, it is easy for new and growing firms to get good banking services (checking accounts, foreign exchange transactions, letters of credit, and the like);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G01_SD7;Numeric;8;2;In my country, the markets for consumer goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G02_SD7;Numeric;8;2;In my country, the markets for business-to-business goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G03_SD7;Numeric;8;2;In my country, new and growing firms can easily enter new markets;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G04_SD7;Numeric;8;2;In my country, the new and growing firms can afford the cost of market entry;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G05_SD7;Numeric;8;2;In my country, new and growing firms can enter markets without being unfairly blocked by established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G06_SD7;Numeric;8;2;In my country, the anti-trust legislation is effective and well enforced;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H01_SD7;Numeric;8;2;In my country, the physical infrastructure (roads, utilities, communications, waste disposal) provides good support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H02_SD7;Numeric;8;2;In my country, it is not too expensive for a new or growing firm to get good access to communications (phone, Internet, etc );{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H03_SD7;Numeric;8;2;In my country, a new or growing firm can get good access to communications (telephone, internet, etc ) in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H04_SD7;Numeric;8;2;In my country, new and growing firms can afford the cost of basic utilities (gas, water, electricity, sewer);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H05_SD7;Numeric;8;2;In my country, new or growing firms can get good access to utilities (gas, water, electricity, sewer) in about a month;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I01_SD7;Numeric;8;2;In my country, the national culture is highly supportive of individual success achieved through own personal efforts;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I02_SD7;Numeric;8;2;In my country, the national culture emphasizes self-sufficiency, autonomy, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I03_SD7;Numeric;8;2;In my country, the national culture encourages entrepreneurial risk-taking;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I04_SD7;Numeric;8;2;In my country, the national culture encourages creativity and innovativeness;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I05_SD7;Numeric;8;2;In my country, the national culture emphasizes the responsibility that the individual (rather than the collective) has in managing his or her own life;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+MEDIANS7;Numeric;8;2;MEDIANS OF THE ORIGINAL VARIABLES: RECOMMENDED ALTERNATIVE FOR THE MEAN FOR LIKERT SCALES;None;None;8;Right;Scale;Input
+COUNTRY_19;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_INQ_MED7;Numeric;8;2;How do you perceive the current overall state of your country’s (name of the country, region, city…) context for entrepreneurs or set of framework conditions that are facing entrepreneurs to develop their activities:;{1,00, Extremelly bad conditions}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A01_MED7;Numeric;8;2;In my country, there is sufficient equity funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A02_MED7;Numeric;8;2;In my country, there is sufficient debt funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A03_MED7;Numeric;8;2;In my country, there are sufficient government subsidies available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A04_MED7;Numeric;8;2;In my country, there is sufficient funding available from informal investors (family, friends and colleagues) who are private individuals (other than founders) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A05_MED7;Numeric;8;2;In my country, there is sufficient funding available from professional Business Angels for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A06_MED7;Numeric;8;2;In my country, there is sufficient funding available from venture capitalists for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A07_MED7;Numeric;8;2;In my country, there is sufficient funding available through initial public offerings (IPOs) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_A08_MED7;Numeric;8;2;In my country, there is sufficient funding available through private lenders' funding (crowdfunding) available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_B01_MED7;Numeric;8;2;In my country, Government policies (e g , public procurement) consistently favor new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B02_MED7;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the national government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B03_MED7;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the local government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B04_MED7;Numeric;8;2;In my country, new firms can get most of the required permits and licenses in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B05_MED7;Numeric;8;2;In my country, the amount of taxes is NOT a burden for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B06_MED7;Numeric;8;2;In my country, taxes and other government regulations are applied to new and growing firms in a predictable and consistent way;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B07_MED7;Numeric;8;2;In my country, coping with government bureaucracy, regulations, and licensing requirements it is not unduly difficult for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C01_MED7;Numeric;8;2;In my country, a wide range of government assistance for new and growing firms can be obtained through contact with a single agency;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C02_MED7;Numeric;8;2;In my country, science parks and business incubators provide effective support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C03_MED7;Numeric;8;2;In my country, there are an adequate number of government programs for new and growing businesses;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C04_MED7;Numeric;8;2;In my country, the people working for government agencies are competent and effective in supporting new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C05_MED7;Numeric;8;2;In my country, almost anyone who needs help from a government program for a new or growing business can find what they need;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C06_MED7;Numeric;8;2;In my country, Government programs aimed at supporting new and growing firms are effective;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D01_MED7;Numeric;8;2;In my country, teaching in primary and secondary education encourages creativity, self-sufficiency, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D02_MED7;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate instruction in market economic principles;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D03_MED7;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate attention to entrepreneurship and new firm creation;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D04_MED7;Numeric;8;2;In my country, Colleges and universities provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D05_MED7;Numeric;8;2;In my country, the level of business and management education provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D06_MED7;Numeric;8;2;In my country, the vocational, professional, and continuing education systems provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E01_MED7;Numeric;8;2;In my country, new technology, science, and other knowledge are efficiently transferred from universities and public research centers to new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E02_MED7;Numeric;8;2;In my country, new and growing firms have just as much access to new research and technology as large, established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E03_MED7;Numeric;8;2;In my country, new and growing firms can afford the latest technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E04_MED7;Numeric;8;2;In my country, there are adequate government subsidies for new and growing firms to acquire new technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E05_MED7;Numeric;8;2;In my country, the science and technology base efficiently supports the creation of world-class new technology-based ventures in at least one area;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E06_MED7;Numeric;8;2;In my country, there is good support available for engineers and scientists to have their ideas commercialized through new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F01_MED7;Numeric;8;2;In my country, there are enough subcontractors, suppliers, and consultants to support new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F02_MED7;Numeric;8;2;In my country, new and growing firms can afford the cost of using subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F03_MED7;Numeric;8;2;In my country, it is easy for new and growing firms to get good subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F04_MED7;Numeric;8;2;In my country, it is easy for new and growing firms to get good, professional legal and accounting services;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F05_MED7;Numeric;8;2;In my country, it is easy for new and growing firms to get good banking services (checking accounts, foreign exchange transactions, letters of credit, and the like);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G01_MED7;Numeric;8;2;In my country, the markets for consumer goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G02_MED7;Numeric;8;2;In my country, the markets for business-to-business goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G03_MED7;Numeric;8;2;In my country, new and growing firms can easily enter new markets;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G04_MED7;Numeric;8;2;In my country, the new and growing firms can afford the cost of market entry;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G05_MED7;Numeric;8;2;In my country, new and growing firms can enter markets without being unfairly blocked by established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G06_MED7;Numeric;8;2;In my country, the anti-trust legislation is effective and well enforced;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H01_MED7;Numeric;8;2;In my country, the physical infrastructure (roads, utilities, communications, waste disposal) provides good support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H02_MED7;Numeric;8;2;In my country, it is not too expensive for a new or growing firm to get good access to communications (phone, Internet, etc );{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H03_MED7;Numeric;8;2;In my country, a new or growing firm can get good access to communications (telephone, internet, etc ) in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H04_MED7;Numeric;8;2;In my country, new and growing firms can afford the cost of basic utilities (gas, water, electricity, sewer);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H05_MED7;Numeric;8;2;In my country, new or growing firms can get good access to utilities (gas, water, electricity, sewer) in about a month;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I01_MED7;Numeric;8;2;In my country, the national culture is highly supportive of individual success achieved through own personal efforts;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I02_MED7;Numeric;8;2;In my country, the national culture emphasizes self-sufficiency, autonomy, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I03_MED7;Numeric;8;2;In my country, the national culture encourages entrepreneurial risk-taking;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I04_MED7;Numeric;8;2;In my country, the national culture encourages creativity and innovativeness;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I05_MED7;Numeric;8;2;In my country, the national culture emphasizes the responsibility that the individual (rather than the collective) has in managing his or her own life;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+PRINCIPAL_COMP7;Numeric;8;2;AVERAGE VALUES OF THE SUMMARIZED BLOCKS OF VARIABLES BY PRINCIPAL COMPONENTS:;None;None;8;Right;Scale;Input
+COUNTRY_20;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_ASUM_MEAN7;Numeric;8;2;Financial environment related with entrepreneurship (summary);None;None;8;Right;Scale;Input
+NES_B1SUM_MEAN7;Numeric;8;2;Government concrete policies, priority and support (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B2SUM_MEAN7;Numeric;8;2;Government policies bureaucracy, taxes (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_CSUM_MEAN7;Numeric;8;2;Government programs (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D1SUM_MEAN7;Numeric;8;2;Entrepreneurial level of education at Primary and Secondary (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D2SUM_MEAN7;Numeric;8;2;Entrepreneurial level of education at Vocational, Professional, College and University (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_ESUM_MEAN7;Numeric;8;2;R&D level of transference (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_FSUM_MEAN7;Numeric;8;2;Professional and commercial infrastructure access (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G1SUM_MEAN7;Numeric;8;2;Internal market dynamics (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G2SUM_MEAN7;Numeric;8;2;Internal market burdens (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_HSUM_MEAN7;Numeric;8;2;Physical infrastructures and services access (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_ISUM_MEAN7;Numeric;8;2;Cultural, social norms and society support (summary);None;97,00, 98,00, 99,00;8;Right;Scale;Input
+STD_ERR7;Numeric;8;2;STANDARD ERRORS OF SUMMARY VARIABLES MEANS USEFUL TO CALCULATE CONFIDENCE INTERVALS;None;None;8;Right;Scale;Input
+COUNTRY_21;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_ASUM_STDE7;Numeric;8;2;Financial environment related with entrepreneurship (std err);None;None;8;Right;Scale;Input
+NES_B1SUM_STDE7;Numeric;8;2;Government concrete policies, priority and support (std err);None;None;8;Right;Scale;Input
+NES_B2SUM_STDE7;Numeric;8;2;Government policies bureaucracy, taxes (std err);None;None;8;Right;Scale;Input
+NES_CSUM_STDE7;Numeric;8;2;Government programs (std err);None;None;8;Right;Scale;Input
+NES_D1SUM_STDE7;Numeric;8;2;Entrepreneurial level of education at Primary and Secondary (std err);None;None;8;Right;Scale;Input
+NES_D2SUM_STDE7;Numeric;8;2;Entrepreneurial level of education at Vocational, Professional, College and University (std err);None;None;8;Right;Scale;Input
+NES_ESUM_STDE7;Numeric;8;2;R&D level of transference (std err);None;None;8;Right;Scale;Input
+NES_FSUM_STDE7;Numeric;8;2;Professional and commercial infrastructure access (std err);None;None;8;Right;Scale;Input
+NES_G1SUM_STDE7;Numeric;8;2;Internal market dynamics (std err);None;None;8;Right;Scale;Input
+NES_G2SUM_STDE7;Numeric;8;2;Internal market burdens (std err);None;None;8;Right;Scale;Input
+NES_HSUM_STDE7;Numeric;8;2;Physical infrastructures and services access (std err);None;None;8;Right;Scale;Input
+NES_ISUM_STDE7;Numeric;8;2;Cultural, social norms and society support (std err);None;None;8;Right;Scale;Input
+ZSCORES_7;Numeric;8;2;STANDARDIZED SCORES OF THE AVERAGES OF THE SUMMARY VARIABLES;None;None;8;Right;Nominal;Input
+COUNTRY_22;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+ZNES_ASUM7;Numeric;8;2;Financial environment related with entrepreneurship (summary);None;None;8;Right;Scale;Input
+ZNES_B1SUM7;Numeric;8;2;Government concrete policies, priority and support (summary);None;None;8;Right;Scale;Input
+ZNES_B2SUM7;Numeric;8;2;Government policies bureaucracy, taxes (summary);None;None;8;Right;Scale;Input
+ZNES_CSUM7;Numeric;8;2;Government programs (summary);None;None;8;Right;Scale;Input
+ZNES_D1SUM7;Numeric;8;2;Entrepreneurial level of education at Primary and Secondary (summary);None;None;8;Right;Scale;Input
+ZNES_D2SUM7;Numeric;8;2;Entrepreneurial level of education at Vocational, Professional, College and University (summary);None;None;8;Right;Scale;Input
+ZNES_ESUM7;Numeric;8;2;R&D level of transference (summary);None;None;8;Right;Scale;Input
+ZNES_FSUM7;Numeric;8;2;Professional and commercial infrastructure access (summary);None;None;8;Right;Scale;Input
+ZNES_G1SUM7;Numeric;8;2;Internal market dynamics (summary);None;None;8;Right;Scale;Input
+ZNES_G2SUM7;Numeric;8;2;Internal market burdens (summary);None;None;8;Right;Scale;Input
+ZNES_HSUM7;Numeric;8;2;Physical infrastructures and services access (summary);None;None;8;Right;Scale;Input
+ZNES_ISUM7;Numeric;8;2;Cultural, social norms and society support (summary);None;None;8;Right;Scale;Input
+MEANS5;Numeric;8;2;AVERAGE (MEAN) VALUE FOR EACH PARTICIPATING COUNTRY OR REGION IN GEM 2012 OF THE FOLLOWING VARIABLES:;None;None;8;Right;Scale;Input
+COUNTRY_23;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_INQ_MEAN5;Numeric;8;2;How do you perceive the current overall state of your country’s (name of the country, region, city…) context for entrepreneurs or set of framework conditions that are facing entrepreneurs to develop their activities:;{1,00, Extremelly bad conditions}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A01_MEAN5;Numeric;8;2;In my country, there is sufficient equity funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A02_MEAN5;Numeric;8;2;In my country, there is sufficient debt funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A03_MEAN5;Numeric;8;2;In my country, there are sufficient government subsidies available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A04_MEAN5;Numeric;8;2;In my country, there is sufficient funding available from informal investors (family, friends and colleagues) who are private individuals (other than founders) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A05_MEAN5;Numeric;8;2;In my country, there is sufficient funding available from professional Business Angels for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A06_MEAN5;Numeric;8;2;In my country, there is sufficient funding available from venture capitalists for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A07_MEAN5;Numeric;8;2;In my country, there is sufficient funding available through initial public offerings (IPOs) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A08_MEAN5;Numeric;8;2;In my country, there is sufficient funding available through private lenders' funding (crowdfunding) available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B01_MEAN5;Numeric;8;2;In my country, Government policies (e g , public procurement) consistently favor new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B02_MEAN5;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the national government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B03_MEAN5;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the local government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B04_MEAN5;Numeric;8;2;In my country, new firms can get most of the required permits and licenses in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B05_MEAN5;Numeric;8;2;In my country, the amount of taxes is NOT a burden for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B06_MEAN5;Numeric;8;2;In my country, taxes and other government regulations are applied to new and growing firms in a predictable and consistent way;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B07_MEAN5;Numeric;8;2;In my country, coping with government bureaucracy, regulations, and licensing requirements it is not unduly difficult for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C01_MEAN5;Numeric;8;2;In my country, a wide range of government assistance for new and growing firms can be obtained through contact with a single agency;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C02_MEAN5;Numeric;8;2;In my country, science parks and business incubators provide effective support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C03_MEAN5;Numeric;8;2;In my country, there are an adequate number of government programs for new and growing businesses;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C04_MEAN5;Numeric;8;2;In my country, the people working for government agencies are competent and effective in supporting new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C05_MEAN5;Numeric;8;2;In my country, almost anyone who needs help from a government program for a new or growing business can find what they need;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C06_MEAN5;Numeric;8;2;In my country, Government programs aimed at supporting new and growing firms are effective;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D01_MEAN5;Numeric;8;2;In my country, teaching in primary and secondary education encourages creativity, self-sufficiency, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D02_MEAN5;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate instruction in market economic principles;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D03_MEAN5;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate attention to entrepreneurship and new firm creation;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D04_MEAN5;Numeric;8;2;In my country, Colleges and universities provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D05_MEAN5;Numeric;8;2;In my country, the level of business and management education provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D06_MEAN5;Numeric;8;2;In my country, the vocational, professional, and continuing education systems provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E01_MEAN5;Numeric;8;2;In my country, new technology, science, and other knowledge are efficiently transferred from universities and public research centers to new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E02_MEAN5;Numeric;8;2;In my country, new and growing firms have just as much access to new research and technology as large, established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E03_MEAN5;Numeric;8;2;In my country, new and growing firms can afford the latest technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E04_MEAN5;Numeric;8;2;In my country, there are adequate government subsidies for new and growing firms to acquire new technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E05_MEAN5;Numeric;8;2;In my country, the science and technology base efficiently supports the creation of world-class new technology-based ventures in at least one area;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E06_MEAN5;Numeric;8;2;In my country, there is good support available for engineers and scientists to have their ideas commercialized through new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F01_MEAN5;Numeric;8;2;In my country, there are enough subcontractors, suppliers, and consultants to support new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F02_MEAN5;Numeric;8;2;In my country, new and growing firms can afford the cost of using subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F03_MEAN5;Numeric;8;2;In my country, it is easy for new and growing firms to get good subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F04_MEAN5;Numeric;8;2;In my country, it is easy for new and growing firms to get good, professional legal and accounting services;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F05_MEAN5;Numeric;8;2;In my country, it is easy for new and growing firms to get good banking services (checking accounts, foreign exchange transactions, letters of credit, and the like);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G01_MEAN5;Numeric;8;2;In my country, the markets for consumer goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G02_MEAN5;Numeric;8;2;In my country, the markets for business-to-business goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G03_MEAN5;Numeric;8;2;In my country, new and growing firms can easily enter new markets;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G04_MEAN5;Numeric;8;2;In my country, the new and growing firms can afford the cost of market entry;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G05_MEAN5;Numeric;8;2;In my country, new and growing firms can enter markets without being unfairly blocked by established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G06_MEAN5;Numeric;8;2;In my country, the anti-trust legislation is effective and well enforced;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H01_MEAN5;Numeric;8;2;In my country, the physical infrastructure (roads, utilities, communications, waste disposal) provides good support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H02_MEAN5;Numeric;8;2;In my country, it is not too expensive for a new or growing firm to get good access to communications (phone, Internet, etc );{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H03_MEAN5;Numeric;8;2;In my country, a new or growing firm can get good access to communications (telephone, internet, etc ) in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H04_MEAN5;Numeric;8;2;In my country, new and growing firms can afford the cost of basic utilities (gas, water, electricity, sewer);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H05_MEAN5;Numeric;8;2;In my country, new or growing firms can get good access to utilities (gas, water, electricity, sewer) in about a month;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I01_MEAN5;Numeric;8;2;In my country, the national culture is highly supportive of individual success achieved through own personal efforts;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I02_MEAN5;Numeric;8;2;In my country, the national culture emphasizes self-sufficiency, autonomy, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I03_MEAN5;Numeric;8;2;In my country, the national culture encourages entrepreneurial risk-taking;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I04_MEAN5;Numeric;8;2;In my country, the national culture encourages creativity and innovativeness;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I05_MEAN5;Numeric;8;2;In my country, the national culture emphasizes the responsibility that the individual (rather than the collective) has in managing his or her own life;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+STDDEV5;Numeric;8;2;STANDARD DEVIATIONS FOR EACH VARIABLE OF THE CLOSED PART OF THE NES QUESTIONNAIRE;None;None;8;Right;Scale;Input
+COUNTRY_24;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_INQ_SD5;Numeric;8;2;How do you perceive the current overall state of your country’s (name of the country, region, city…) context for entrepreneurs or set of framework conditions that are facing entrepreneurs to develop their activities:;{1,00, Extremelly bad conditions}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A01_SD5;Numeric;8;2;In my country, there is sufficient equity funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A02_SD5;Numeric;8;2;In my country, there is sufficient debt funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A03_SD5;Numeric;8;2;In my country, there are sufficient government subsidies available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A04_SD5;Numeric;8;2;In my country, there is sufficient funding available from informal investors (family, friends and colleagues) who are private individuals (other than founders) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A05_SD5;Numeric;8;2;In my country, there is sufficient funding available from professional Business Angels for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A06_SD5;Numeric;8;2;In my country, there is sufficient funding available from venture capitalists for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A07_SD5;Numeric;8;2;In my country, there is sufficient funding available through initial public offerings (IPOs) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_A08_SD5;Numeric;8;2;In my country, there is sufficient funding available through private lenders' funding (crowdfunding) available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_B01_SD5;Numeric;8;2;In my country, Government policies (e g , public procurement) consistently favor new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B02_SD5;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the national government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B03_SD5;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the local government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B04_SD5;Numeric;8;2;In my country, new firms can get most of the required permits and licenses in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B05_SD5;Numeric;8;2;In my country, the amount of taxes is NOT a burden for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B06_SD5;Numeric;8;2;In my country, taxes and other government regulations are applied to new and growing firms in a predictable and consistent way;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B07_SD5;Numeric;8;2;In my country, coping with government bureaucracy, regulations, and licensing requirements it is not unduly difficult for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C01_SD5;Numeric;8;2;In my country, a wide range of government assistance for new and growing firms can be obtained through contact with a single agency;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C02_SD5;Numeric;8;2;In my country, science parks and business incubators provide effective support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C03_SD5;Numeric;8;2;In my country, there are an adequate number of government programs for new and growing businesses;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C04_SD5;Numeric;8;2;In my country, the people working for government agencies are competent and effective in supporting new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C05_SD5;Numeric;8;2;In my country, almost anyone who needs help from a government program for a new or growing business can find what they need;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C06_SD5;Numeric;8;2;In my country, Government programs aimed at supporting new and growing firms are effective;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D01_SD5;Numeric;8;2;In my country, teaching in primary and secondary education encourages creativity, self-sufficiency, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D02_SD5;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate instruction in market economic principles;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D03_SD5;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate attention to entrepreneurship and new firm creation;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D04_SD5;Numeric;8;2;In my country, Colleges and universities provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D05_SD5;Numeric;8;2;In my country, the level of business and management education provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D06_SD5;Numeric;8;2;In my country, the vocational, professional, and continuing education systems provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E01_SD5;Numeric;8;2;In my country, new technology, science, and other knowledge are efficiently transferred from universities and public research centers to new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E02_SD5;Numeric;8;2;In my country, new and growing firms have just as much access to new research and technology as large, established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E03_SD5;Numeric;8;2;In my country, new and growing firms can afford the latest technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E04_SD5;Numeric;8;2;In my country, there are adequate government subsidies for new and growing firms to acquire new technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E05_SD5;Numeric;8;2;In my country, the science and technology base efficiently supports the creation of world-class new technology-based ventures in at least one area;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E06_SD5;Numeric;8;2;In my country, there is good support available for engineers and scientists to have their ideas commercialized through new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F01_SD5;Numeric;8;2;In my country, there are enough subcontractors, suppliers, and consultants to support new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F02_SD5;Numeric;8;2;In my country, new and growing firms can afford the cost of using subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F03_SD5;Numeric;8;2;In my country, it is easy for new and growing firms to get good subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F04_SD5;Numeric;8;2;In my country, it is easy for new and growing firms to get good, professional legal and accounting services;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F05_SD5;Numeric;8;2;In my country, it is easy for new and growing firms to get good banking services (checking accounts, foreign exchange transactions, letters of credit, and the like);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G01_SD5;Numeric;8;2;In my country, the markets for consumer goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G02_SD5;Numeric;8;2;In my country, the markets for business-to-business goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G03_SD5;Numeric;8;2;In my country, new and growing firms can easily enter new markets;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G04_SD5;Numeric;8;2;In my country, the new and growing firms can afford the cost of market entry;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G05_SD5;Numeric;8;2;In my country, new and growing firms can enter markets without being unfairly blocked by established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G06_SD5;Numeric;8;2;In my country, the anti-trust legislation is effective and well enforced;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H01_SD5;Numeric;8;2;In my country, the physical infrastructure (roads, utilities, communications, waste disposal) provides good support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H02_SD5;Numeric;8;2;In my country, it is not too expensive for a new or growing firm to get good access to communications (phone, Internet, etc );{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H03_SD5;Numeric;8;2;In my country, a new or growing firm can get good access to communications (telephone, internet, etc ) in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H04_SD5;Numeric;8;2;In my country, new and growing firms can afford the cost of basic utilities (gas, water, electricity, sewer);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H05_SD5;Numeric;8;2;In my country, new or growing firms can get good access to utilities (gas, water, electricity, sewer) in about a month;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I01_SD5;Numeric;8;2;In my country, the national culture is highly supportive of individual success achieved through own personal efforts;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I02_SD5;Numeric;8;2;In my country, the national culture emphasizes self-sufficiency, autonomy, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I03_SD5;Numeric;8;2;In my country, the national culture encourages entrepreneurial risk-taking;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I04_SD5;Numeric;8;2;In my country, the national culture encourages creativity and innovativeness;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I05_SD5;Numeric;8;2;In my country, the national culture emphasizes the responsibility that the individual (rather than the collective) has in managing his or her own life;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+MEDIANS5;Numeric;8;2;MEDIANS OF THE ORIGINAL VARIABLES: RECOMMENDED ALTERNATIVE FOR THE MEAN FOR LIKERT SCALES;None;None;8;Right;Scale;Input
+COUNTRY_25;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_INQ_MED5;Numeric;8;2;How do you perceive the current overall state of your country’s (name of the country, region, city…) context for entrepreneurs or set of framework conditions that are facing entrepreneurs to develop their activities:;{1,00, Extremelly bad conditions}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A01_MED5;Numeric;8;2;In my country, there is sufficient equity funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A02_MED5;Numeric;8;2;In my country, there is sufficient debt funding available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A03_MED5;Numeric;8;2;In my country, there are sufficient government subsidies available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A04_MED5;Numeric;8;2;In my country, there is sufficient funding available from informal investors (family, friends and colleagues) who are private individuals (other than founders) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A05_MED5;Numeric;8;2;In my country, there is sufficient funding available from professional Business Angels for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A06_MED5;Numeric;8;2;In my country, there is sufficient funding available from venture capitalists for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_A07_MED5;Numeric;8;2;In my country, there is sufficient funding available through initial public offerings (IPOs) for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_A08_MED5;Numeric;8;2;In my country, there is sufficient funding available through private lenders' funding (crowdfunding) available for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Nominal;Input
+NES_B01_MED5;Numeric;8;2;In my country, Government policies (e g , public procurement) consistently favor new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B02_MED5;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the national government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B03_MED5;Numeric;8;2;In my country, the support for new and growing firms is a high priority for policy at the local government level;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B04_MED5;Numeric;8;2;In my country, new firms can get most of the required permits and licenses in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B05_MED5;Numeric;8;2;In my country, the amount of taxes is NOT a burden for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B06_MED5;Numeric;8;2;In my country, taxes and other government regulations are applied to new and growing firms in a predictable and consistent way;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_B07_MED5;Numeric;8;2;In my country, coping with government bureaucracy, regulations, and licensing requirements it is not unduly difficult for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C01_MED5;Numeric;8;2;In my country, a wide range of government assistance for new and growing firms can be obtained through contact with a single agency;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C02_MED5;Numeric;8;2;In my country, science parks and business incubators provide effective support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C03_MED5;Numeric;8;2;In my country, there are an adequate number of government programs for new and growing businesses;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C04_MED5;Numeric;8;2;In my country, the people working for government agencies are competent and effective in supporting new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C05_MED5;Numeric;8;2;In my country, almost anyone who needs help from a government program for a new or growing business can find what they need;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_C06_MED5;Numeric;8;2;In my country, Government programs aimed at supporting new and growing firms are effective;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D01_MED5;Numeric;8;2;In my country, teaching in primary and secondary education encourages creativity, self-sufficiency, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D02_MED5;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate instruction in market economic principles;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D03_MED5;Numeric;8;2;In my country, teaching in primary and secondary education provides adequate attention to entrepreneurship and new firm creation;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D04_MED5;Numeric;8;2;In my country, Colleges and universities provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D05_MED5;Numeric;8;2;In my country, the level of business and management education provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_D06_MED5;Numeric;8;2;In my country, the vocational, professional, and continuing education systems provide good and adequate preparation for starting up and growing new firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E01_MED5;Numeric;8;2;In my country, new technology, science, and other knowledge are efficiently transferred from universities and public research centers to new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E02_MED5;Numeric;8;2;In my country, new and growing firms have just as much access to new research and technology as large, established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E03_MED5;Numeric;8;2;In my country, new and growing firms can afford the latest technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E04_MED5;Numeric;8;2;In my country, there are adequate government subsidies for new and growing firms to acquire new technology;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E05_MED5;Numeric;8;2;In my country, the science and technology base efficiently supports the creation of world-class new technology-based ventures in at least one area;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_E06_MED5;Numeric;8;2;In my country, there is good support available for engineers and scientists to have their ideas commercialized through new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F01_MED5;Numeric;8;2;In my country, there are enough subcontractors, suppliers, and consultants to support new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F02_MED5;Numeric;8;2;In my country, new and growing firms can afford the cost of using subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F03_MED5;Numeric;8;2;In my country, it is easy for new and growing firms to get good subcontractors, suppliers, and consultants;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F04_MED5;Numeric;8;2;In my country, it is easy for new and growing firms to get good, professional legal and accounting services;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_F05_MED5;Numeric;8;2;In my country, it is easy for new and growing firms to get good banking services (checking accounts, foreign exchange transactions, letters of credit, and the like);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G01_MED5;Numeric;8;2;In my country, the markets for consumer goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G02_MED5;Numeric;8;2;In my country, the markets for business-to-business goods and services change dramatically from year to year;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G03_MED5;Numeric;8;2;In my country, new and growing firms can easily enter new markets;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G04_MED5;Numeric;8;2;In my country, the new and growing firms can afford the cost of market entry;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G05_MED5;Numeric;8;2;In my country, new and growing firms can enter markets without being unfairly blocked by established firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_G06_MED5;Numeric;8;2;In my country, the anti-trust legislation is effective and well enforced;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H01_MED5;Numeric;8;2;In my country, the physical infrastructure (roads, utilities, communications, waste disposal) provides good support for new and growing firms;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H02_MED5;Numeric;8;2;In my country, it is not too expensive for a new or growing firm to get good access to communications (phone, Internet, etc );{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H03_MED5;Numeric;8;2;In my country, a new or growing firm can get good access to communications (telephone, internet, etc ) in about a week;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H04_MED5;Numeric;8;2;In my country, new and growing firms can afford the cost of basic utilities (gas, water, electricity, sewer);{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_H05_MED5;Numeric;8;2;In my country, new or growing firms can get good access to utilities (gas, water, electricity, sewer) in about a month;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I01_MED5;Numeric;8;2;In my country, the national culture is highly supportive of individual success achieved through own personal efforts;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I02_MED5;Numeric;8;2;In my country, the national culture emphasizes self-sufficiency, autonomy, and personal initiative;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I03_MED5;Numeric;8;2;In my country, the national culture encourages entrepreneurial risk-taking;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I04_MED5;Numeric;8;2;In my country, the national culture encourages creativity and innovativeness;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+NES_I05_MED5;Numeric;8;2;In my country, the national culture emphasizes the responsibility that the individual (rather than the collective) has in managing his or her own life;{1,00, Completely false}...;97,00, 98,00, 99,00;8;Right;Scale;Input
+PRINCIPAL_COMP5;Numeric;8;2;AVERAGE VALUES OF THE SUMMARIZED BLOCKS OF VARIABLES BY PRINCIPAL COMPONENTS:;None;None;8;Right;Scale;Input
+COUNTRY_26;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_ASUM_MEAN5;Numeric;8;2;Financial environment related with entrepreneurship (summary);None;None;8;Right;Scale;Input
+NES_B1SUM_MEAN5;Numeric;8;2;Government concrete policies, priority and support (summary);None;None;8;Right;Scale;Input
+NES_B2SUM_MEAN5;Numeric;8;2;Government policies bureaucracy, taxes (summary);None;None;8;Right;Scale;Input
+NES_CSUM_MEAN5;Numeric;8;2;Government programs (summary);None;None;8;Right;Scale;Input
+NES_D1SUM_MEAN5;Numeric;8;2;Entrepreneurial level of education at Primary and Secondary (summary);None;None;8;Right;Scale;Input
+NES_D2SUM_MEAN5;Numeric;8;2;Entrepreneurial level of education at Vocational, Professional, College and University (summary);None;None;8;Right;Scale;Input
+NES_ESUM_MEAN5;Numeric;8;2;R&D level of transference (summary);None;None;8;Right;Scale;Input
+NES_FSUM_MEAN5;Numeric;8;2;Professional and commercial infrastructure access (summary);None;None;8;Right;Scale;Input
+NES_G1SUM_MEAN5;Numeric;8;2;Internal market dynamics (summary);None;None;8;Right;Scale;Input
+NES_G2SUM_MEAN5;Numeric;8;2;Internal market burdens (summary);None;None;8;Right;Scale;Input
+NES_HSUM_MEAN5;Numeric;8;2;Physical infrastructures and services access (summary);None;None;8;Right;Scale;Input
+NES_ISUM_MEAN5;Numeric;8;2;Cultural, social norms and society support (summary);None;None;8;Right;Scale;Input
+STD_ERR5;Numeric;8;2;STANDARD ERRORS OF SUMMARY VARIABLES MEANS USEFUL TO CALCULATE CONFIDENCE INTERVALS;None;None;8;Right;Scale;Input
+COUNTRY_27;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+NES_ASUM_STDE5;Numeric;8;2;Financial environment related with entrepreneurship (std err);None;None;8;Right;Scale;Input
+NES_B1SUM_STDE5;Numeric;8;2;Government concrete policies, priority and support (std err);None;None;8;Right;Scale;Input
+NES_B2SUM_STDE5;Numeric;8;2;Government policies bureaucracy, taxes (std err);None;None;8;Right;Scale;Input
+NES_CSUM_STDE5;Numeric;8;2;Government programs (std err);None;None;8;Right;Scale;Input
+NES_D1SUM_STDE5;Numeric;8;2;Entrepreneurial level of education at Primary and Secondary (std err);None;None;8;Right;Scale;Input
+NES_D2SUM_STDE5;Numeric;8;2;Entrepreneurial level of education at Vocational, Professional, College and University (std err);None;None;8;Right;Scale;Input
+NES_ESUM_STDE5;Numeric;8;2;R&D level of transference (std err);None;None;8;Right;Scale;Input
+NES_FSUM_STDE5;Numeric;8;2;Professional and commercial infrastructure access (std err);None;None;8;Right;Scale;Input
+NES_G1SUM_STDE5;Numeric;8;2;Internal market dynamics (std err);None;None;8;Right;Scale;Input
+NES_G2SUM_STDE5;Numeric;8;2;Internal market burdens (std err);None;None;8;Right;Scale;Input
+NES_HSUM_STDE5;Numeric;8;2;Physical infrastructures and services access (std err);None;None;8;Right;Scale;Input
+NES_ISUM_STDE5;Numeric;8;2;Cultural, social norms and society support (std err);None;None;8;Right;Scale;Input
+ZSCORES_5;Numeric;8;2;STANDARDIZED SCORES OF THE AVERAGES OF THE SUMMARY VARIABLES;None;None;9;Right;Nominal;Input
+COUNTRY_28;Numeric;8;2;Phone code;{1,00, USA}...;None;13;Right;Scale;Input
+ZNES_ASUM5;Numeric;8;2;Financial environment related with entrepreneurship (summary);None;None;8;Right;Scale;Input
+ZNES_B1SUM5;Numeric;8;2;Government concrete policies, priority and support (summary);None;None;8;Right;Scale;Input
+ZNES_B2SUM5;Numeric;8;2;Government policies bureaucracy, taxes (summary);None;None;8;Right;Scale;Input
+ZNES_CSUM5;Numeric;8;2;Government programs (summary);None;None;8;Right;Scale;Input
+ZNES_D1SUM5;Numeric;8;2;Entrepreneurial level of education at Primary and Secondary (summary);None;None;8;Right;Scale;Input
+ZNES_D2SUM5;Numeric;8;2;Entrepreneurial level of education at Vocational, Professional, College and University (summary);None;None;8;Right;Scale;Input
+ZNES_ESUM5;Numeric;8;2;R&D level of transference (summary);None;None;8;Right;Scale;Input
+ZNES_FSUM5;Numeric;8;2;Professional and commercial infrastructure access (summary);None;None;8;Right;Scale;Input
+ZNES_G1SUM5;Numeric;8;2;Internal market dynamics (summary);None;None;8;Right;Scale;Input
+ZNES_G2SUM5;Numeric;8;2;Internal market burdens (summary);None;None;8;Right;Scale;Input
+ZNES_HSUM5;Numeric;8;2;Physical infrastructures and services access (summary);None;None;8;Right;Scale;Input
+ZNES_ISUM5;Numeric;8;2;Cultural, social norms and society support (summary);None;None;8;Right;Scale;Input

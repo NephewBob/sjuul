@@ -40,8 +40,6 @@ results = sm.OLS(y, X).fit()
 
 skills = X[:, 1]
 
-
-
 prediction = X @ results.params
 
 plt.scatter(skills, y)

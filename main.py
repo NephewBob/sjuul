@@ -4,6 +4,7 @@ import statsmodels.api as sm
 
 from utils.csv.load_csv import df_from_csv
 from utils.plot.common import PlotNames
+from utils.plot.histogram import histogram
 from utils.plot.scatter import scatter
 
 aps = df_from_csv(name="aps_2019", separator=";")
@@ -39,12 +40,18 @@ results = sm.OLS(y, X).fit()
 
 skills = X[:, 1]
 
-plt.scatter(y, skills)
+
+
+prediction = X @ results.params
+
+plt.scatter(skills, y)
+plt.plot(skills, prediction, "r")
 plt.title("fit")
 
-
-errors = y - X @ results.params
-scatter(x=skills, y=errors, names=PlotNames(title="errors"))
+errors = y - prediction
+scatter(x=skills, y=errors, names=PlotNames(title="errors~skills"))
+scatter(x=y, y=errors, names=PlotNames(title="errors~tea"))
+histogram(x=errors, bins=8, names=PlotNames(title="errors dist"))
 
 plt.show()
 
